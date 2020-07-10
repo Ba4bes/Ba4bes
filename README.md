@@ -1,10 +1,21 @@
 ### Hi there 👋
 
-<!--
-**Ba4bes/Ba4bes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Things you will find here:
+- ⛅ Azure
+- 🚗 Automation
+- 🐚 PowerShell
+- 💪 ARM Templates
+- ⚡ Azure Functions
+- 🚀 Azure DevOps
 
-Here are some ideas to get you started:
 
+### 📝 my blog
+<https://4bes.nl>
+
+### Reach me on Twitter
+🐦[@Ba4bes](https://twitter.com/Ba4bes)
+
+<!---
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -12,5 +23,6 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: I have a standard poodle 🐩
+
 -->
