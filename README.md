@@ -30,10 +30,11 @@ Things you will find here:
 -->
 
 ## ⭐Random Blog post⭐
-     
- ## [Running a tech blog: Keep going](https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/?utm_source=rss&utm_medium=rss&utm_campaign=running-a-tech-blog-keep-going)
 
- _<p>I think there are only two things hard about running a tech blog: to get started and to keep going. From what I hear around&#8230;</p>
-<p>The post <a rel="nofollow" href="https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/">Running a tech blog: Keep going</a> appeared first on <a rel="nofollow" href="https://4bes.nl">4bes.nl</a>.</p>
-_
+(this post gets updated every day by GitHub Actions! )
+
+<!-- Link -->
+## [Test ARM templates with What-If in a pipeline](https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/?utm_source=rss&utm_medium=rss&utm_campaign=test-arm-templates-with-what-if-in-a-pipeline)
+
+[![4bes.nl link](https://4bes.nl/wp-content/uploads/2021/03/ARMwhatif03.png)](https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/?utm_source=rss&utm_medium=rss&utm_campaign=test-arm-templates-with-what-if-in-a-pipeline)
 
