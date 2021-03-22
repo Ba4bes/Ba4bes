@@ -12,7 +12,7 @@ $NewMarkdown = @"
 <!-- Link -->
 ## [$($RandomPost.title)]($($RandomPost.link))
 
-[![4bes.nl link]($ImageLink)]($($RandomPost.link))
+<a href="$($RandomPost.link)"><img src="$ImageLink" height="250px"></a>
 
 "@
 
