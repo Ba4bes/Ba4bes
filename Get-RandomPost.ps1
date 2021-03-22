@@ -18,8 +18,11 @@ $NewMarkdown = @"
 "@
 
 $Readme = Get-Content ./README.md -Raw
+Write-Host "OldReadMe"
+$Readme
 $Regex = '(?s)<!-- Link -->.*\r\n'
 $NewReadme = $Readme -replace $Regex, $NewMarkdown
 Write-Host "exporting new Readme"
-$NewReadme | Out-File ./README.md
-
+Write-Host "New Readme"
+$NewReadme
+Set-Content -Path ./README.md -Value $NewReadme
