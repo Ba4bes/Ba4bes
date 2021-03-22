@@ -7,6 +7,7 @@ $Regex = '<meta property="og:image" content="https:\/\/4bes\.nl\/wp-content\/upl
 $post.RawContent -match $Regex
 $Imagelink = ($Matches[0] -replace '<meta property="og:image" content="') -replace '" />'
 
+Write-Host "New Post: $($RandomPost.title) "
 
 $NewMarkdown = @"
 <!-- Link -->
@@ -16,8 +17,9 @@ $NewMarkdown = @"
 
 "@
 
-$Readme = Get-Content .\README.md -Raw
+$Readme = Get-Content ./README.md -Raw
 $Regex = '(?s)<!-- Link -->.*\r\n'
 $NewReadme = $Readme -replace $Regex, $NewMarkdown
-$NewReadme | Out-File .\README.md
+Write-Host "exporting new Readme"
+$NewReadme | Out-File ./README.md
 
