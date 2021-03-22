@@ -34,8 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a custom Azure DevOps pipeline task for PowerShell](https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/?utm_source=rss&utm_medium=rss&utm_campaign=create-a-custom-azure-devops-powershell-task)
+## [Test ARM templates with What-If in a pipeline](https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/?utm_source=rss&utm_medium=rss&utm_campaign=test-arm-templates-with-what-if-in-a-pipeline)
 
-<a href="https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/?utm_source=rss&utm_medium=rss&utm_campaign=create-a-custom-azure-devops-powershell-task"><img src="https://4bes.nl/wp-content/uploads/2021/02/AzDoTasktn.png" height="250px"></a>
-
+<a href="https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/?utm_source=rss&utm_medium=rss&utm_campaign=test-arm-templates-with-what-if-in-a-pipeline"><img src="https://4bes.nl/wp-content/uploads/2021/03/ARMwhatif03.png" height="250px"></a>
 
