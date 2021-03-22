@@ -26,7 +26,8 @@ jobs:
       - name: Update post
         run: ./Get-RandomPost.ps1
         shell: pwsh
-      - name: Commit
-        uses: EndBug/add-and-commit@v4
+      - name: Git Auto Commit
+        uses: stefanzweifel/git-auto-commit-action@v4.9.2
         with:
-          message: "New post of the day"
+          # Commit message
+          commit_message: "New post of the day"
