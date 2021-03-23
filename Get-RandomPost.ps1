@@ -1,19 +1,35 @@
-$rssfeed = [xml](Invoke-WebRequest "https://4bes.nl/feed/" -UseBasicParsing)
-$RandomPost = ($rssfeed.rss.channel.item) | Get-Random
+# Collect all blogposts through a webrequest
+$AllBlogPosts = @()
+$IsNotDone = $true
+$Regex = 'https:\/\/4bes\.nl\/[0-9]{4}\/[0-9]{2}\/[0-9]{2}\/.*\/'
+$i = 1
+While ($IsNotDone) {
+    try {
+        $Blogposts = Invoke-WebRequest "https://4bes.nl/page/$i/"
+    }
+    Catch {
+        $IsNotDone = $False
+    }
+    $Blogpostlinks = $Blogposts.Links | Where-Object { $_.href -match $Regex -and ![string]::IsNullOrEmpty($_.title) }
 
-$post = Invoke-WebRequest $RandomPost.link
+    $ALlBlogPosts += $Blogpostlinks | Select-Object -Unique title, href
+    $i++
+}
+
+$RandomPost = $AllBlogPosts | Get-Random
+$Post = Invoke-WebRequest $RandomPost.href
 
 $Regex = '<meta property="og:image" content="https:\/\/4bes\.nl\/wp-content\/uploads\/.*\/>'
-$post.RawContent -match $Regex
+$Post.RawContent -match $Regex
 $Imagelink = ($Matches[0] -replace '<meta property="og:image" content="') -replace '" />'
 
 Write-Host "New Post: $($RandomPost.title) "
 
 $NewMarkdown = @"
 <!-- Link -->
-## [$($RandomPost.title)]($($RandomPost.link))
+## [$($RandomPost.title)]($($RandomPost.href))
 
-<a href="$($RandomPost.link)"><img src="$ImageLink" height="250px"></a>
+<a href="$($RandomPost.href)"><img src="$ImageLink" height="250px"></a>
 
 "@
 
