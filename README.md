@@ -34,8 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Testing ARM Templates](https://4bes.nl/2020/08/09/testing-arm-templates/)
+## [Running a tech blog: Start blogging](https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/)
 
-<a href="https://4bes.nl/2020/08/09/testing-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/08/TestARMtn.png" height="250px"></a>
-
+<a href="https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/"><img src="https://4bes.nl/wp-content/uploads/2020/11/StartBlogtnb-2.png" height="250px"></a>
 
