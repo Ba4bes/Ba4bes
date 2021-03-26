@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Test ARM templates with What-If in a pipeline](https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/)
+## [ARMHelper: A module to help create ARM Templates](https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/)
 
-<a href="https://4bes.nl/2021/03/06/test-arm-templates-with-what-if/"><img src="https://4bes.nl/wp-content/uploads/2021/03/ARMwhatif03.png" height="250px"></a>
+<a href="https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMhelper.png" height="250px"></a>
 
