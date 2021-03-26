@@ -36,7 +36,7 @@ $NewMarkdown = @"
 $Readme = Get-Content ./README.md -Raw
 Write-Host "OldReadMe"
 $Readme
-$Regex = '(?s)<!-- Link -->.*\r\n'
+$Regex = '(?s)<!-- Link -->.*'
 $NewReadme = $Readme -replace $Regex, $NewMarkdown
 Write-Host "exporting new Readme"
 Write-Host "New Readme"
