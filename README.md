@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get started with ARM templates](https://4bes.nl/2021/03/14/get-started-with-arm-templates/)
+## [Use Azure Queue storage bindings in Azure PowerShell Function Apps](https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/)
 
-<a href="https://4bes.nl/2021/03/14/get-started-with-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2021/03/GetStartedWithARMtn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2019/11/PSFunctionApp.png" height="250px"></a>
 
