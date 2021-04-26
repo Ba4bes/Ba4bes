@@ -31,3 +31,6 @@ jobs:
         with:
           # Commit message
           commit_message: "New post of the day"
+          # Value used for the commit author. Defaults to the username of whoever triggered this workflow run.
+          commit_author: GitHubAction <actions@github.com>  # optional, default is ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+   
