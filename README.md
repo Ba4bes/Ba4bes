@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Running a tech blog: Keep going](https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/)
+## [Running a tech blog: Start blogging](https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/)
 
-<a href="https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/"><img src="https://4bes.nl/wp-content/uploads/2020/12/blogkeepgoingtn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/"><img src="https://4bes.nl/wp-content/uploads/2020/11/StartBlogtnb-2.png" height="250px"></a>
 
