@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Manually Create an Azure DevOps Service Connection to Azure](https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/)
+## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
 
-<a href="https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/"><img src="https://4bes.nl/wp-content/uploads/2019/07/AzdoAzConTNb.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
 
