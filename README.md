@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Test ARM Templates and show the resources that will be deployed](https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/)
+## [Step-by-Step: Deploy Azure PowerShell Functions with GitHub Actions](https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/)
 
-<a href="https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/"><img src="https://4bes.nl/wp-content/uploads/2018/12/arm.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GitHubFunctionDeploytn2.png" height="250px"></a>
 
