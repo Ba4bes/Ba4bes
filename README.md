@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a Teams message when a runbook fails](https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/)
+## [Manage Azure DevOps user licenses with PowerShell](https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/)
 
-<a href="https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/"><img src="https://4bes.nl/wp-content/uploads/2018/11/RunbookstatusTeams.png" height="250px"></a>
+<a href="https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/01/AzDoUserLicenses02.png" height="250px"></a>
 
