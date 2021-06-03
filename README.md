@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Getting started with Azure DevOps job and step Templates &#8211; Part 1](https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/)
+## [Send email from PowerShell with SendGrid](https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/)
 
-<a href="https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/"><img src="https://4bes.nl/wp-content/uploads/2019/07/azdotemplate1.png" height="250px"></a>
+<a href="https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn3.png" height="250px"></a>
 
