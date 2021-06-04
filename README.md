@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Send email from PowerShell with SendGrid](https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/)
+## [25 days of serverless in PowerShell &#8211; Halfway there](https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/)
 
-<a href="https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/"><img src="https://4bes.nl/wp-content/uploads/2019/12/tumbnail.png" height="250px"></a>
 
