@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Create linked runbookschedules with Powershell](https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/)
+## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
 
-<a href="https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/02/New-RunbookSchedule3.png" height="250px"></a>
+<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
 
