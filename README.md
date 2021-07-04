@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
+## [Managing and automating Azure with an iPad](https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/)
 
-<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
+<a href="https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/"><img src="https://4bes.nl/wp-content/uploads/2019/02/ipadAzuretumbnail.jpg" height="250px"></a>
 
