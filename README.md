@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Learning AI through Microsoft Learn](https://4bes.nl/2021/05/30/learning-ai-through-microsoft-learn/)
+## [Backup and restore Conditional access policies with PowerShell](https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/)
 
-<a href="https://4bes.nl/2021/05/30/learning-ai-through-microsoft-learn/"><img src="https://4bes.nl/wp-content/uploads/2021/05/mvpchallenge06.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/11/BackupRestoreCA0tn2.png" height="250px"></a>
 
