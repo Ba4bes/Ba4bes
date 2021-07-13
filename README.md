@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Learning AI through Microsoft Learn](https://4bes.nl/2021/05/30/learning-ai-through-microsoft-learn/)
+## [PowerLab: Quickly configure servers in Hyper-V using PowerShell direct](https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/)
 
-<a href="https://4bes.nl/2021/05/30/learning-ai-through-microsoft-learn/"><img src="https://4bes.nl/wp-content/uploads/2021/05/mvpchallenge06.png" height="250px"></a>
+<a href="https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/"><img src="https://4bes.nl/wp-content/uploads/2019/03/PL-HyperVvm3.png" height="250px"></a>
 
