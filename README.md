@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Deploy a test environment with a calendar appointment](https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2020/04/appliedCloudtn2.png" height="250px"></a>
 
