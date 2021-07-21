@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
+## [Testing ARM Templates](https://4bes.nl/2020/08/09/testing-arm-templates/)
 
-<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/08/09/testing-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/08/TestARMtn.png" height="250px"></a>
 
