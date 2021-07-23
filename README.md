@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use Azure Queue storage bindings in Azure PowerShell Function Apps](https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2019/11/PSFunctionApp.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
