@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
 
