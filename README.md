@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [PowerLab: Quickly configure servers in Hyper-V using PowerShell direct](https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/)
+## [Azure DevOps job templates Part 2: Create a shared template repository](https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/)
 
-<a href="https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/"><img src="https://4bes.nl/wp-content/uploads/2019/03/PL-HyperVvm3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/"><img src="https://4bes.nl/wp-content/uploads/2019/08/JobTemplatesIItn.png" height="250px"></a>
 
