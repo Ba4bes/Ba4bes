@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [I am a Microsoft Azure MVP!](https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/)
+## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
 
-<a href="https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/"><img src="https://4bes.nl/wp-content/uploads/2020/03/awardtn.jpg" height="250px"></a>
+<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
 
