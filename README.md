@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step-by-Step: Deploy Azure PowerShell Functions with GitHub Actions](https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/)
+## [Deploy Azure Functions for PowerShell with Azure DevOps](https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/)
 
-<a href="https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GitHubFunctionDeploytn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2019/06/FAv2TN.png" height="250px"></a>
 
