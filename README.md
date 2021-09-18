@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
+## [Create a custom Azure DevOps pipeline task for PowerShell](https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/)
 
-<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/"><img src="https://4bes.nl/wp-content/uploads/2021/02/AzDoTasktn.png" height="250px"></a>
 
