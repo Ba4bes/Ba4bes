@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
+## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
 
-<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
 
