@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Configure Azure Functions for PowerShell in the portal](https://4bes.nl/2019/06/12/configure-azure-functions-for-powershell-in-the-portal/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2019/06/12/configure-azure-functions-for-powershell-in-the-portal/"><img src="https://4bes.nl/wp-content/uploads/2019/06/FunctionApp4.png" height="250px"></a>
 
