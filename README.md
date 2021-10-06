@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Create linked runbookschedules with Powershell](https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/)
+## [Send email from PowerShell with a Logic App](https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/)
 
-<a href="https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/02/New-RunbookSchedule3.png" height="250px"></a>
+<a href="https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn.png" height="250px"></a>
 
