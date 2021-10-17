@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Get a consistent Azure naming convention with Bicep modules](https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/"><img src="https://4bes.nl/wp-content/uploads/2021/10/BicepNamingConventiontn.png" height="250px"></a>
 
