@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a Teams message when a runbook fails](https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/)
+## [Azure DevOps for the IT Pro: tips &#038; tricks](https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/)
 
-<a href="https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/"><img src="https://4bes.nl/wp-content/uploads/2018/11/RunbookstatusTeams.png" height="250px"></a>
+<a href="https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/"><img src="https://4bes.nl/wp-content/uploads/2020/02/AzDoStarttn.png" height="250px"></a>
 
