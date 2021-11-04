@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [MSIgnite: Recap and Random Session generator](https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/)
+## [Send email from PowerShell with a Logic App](https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/)
 
-<a href="https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/"><img src="https://4bes.nl/wp-content/uploads/2019/11/20191103_180836r-e1573565691483.jpg" height="250px"></a>
+<a href="https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn.png" height="250px"></a>
 
