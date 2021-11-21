@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
+## [Testing ARM Templates](https://4bes.nl/2020/08/09/testing-arm-templates/)
 
-<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
+<a href="https://4bes.nl/2020/08/09/testing-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/08/TestARMtn.png" height="250px"></a>
 
