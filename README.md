@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Creating an API to find an Azure resource abbreviation](https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/)
+## [Migrate Azure DevOps repos with PowerShell](https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/)
 
-<a href="https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/"><img src="https://4bes.nl/wp-content/uploads/2021/10/abbreviationAPItn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzDo-MigrateRepotne.png" height="250px"></a>
 
