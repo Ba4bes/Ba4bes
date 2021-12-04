@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating Logic App deployment](https://4bes.nl/2019/03/15/automating-logicapp-deployment/)
+## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
 
-<a href="https://4bes.nl/2019/03/15/automating-logicapp-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/03/logicappfi.png" height="250px"></a>
+<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
 
