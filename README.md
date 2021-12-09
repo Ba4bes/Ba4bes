@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Send email from PowerShell with a Logic App](https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/)
+## [PSSendgrid: Send email from PowerShell with Sendgrid](https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/)
 
-<a href="https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSSendGridtn2.png" height="250px"></a>
 
