@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get-PwshUpdates: Check for PowerShell updates and install them](https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/)
+## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
 
-<a href="https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/"><img src="https://4bes.nl/wp-content/uploads/2019/06/get-pwshupdatetn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
 
