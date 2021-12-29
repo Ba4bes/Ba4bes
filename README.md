@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare to create an Azure PowerShell Function with Visual studio Code](https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/)
+## [Step by step: Test and deploy ARM Templates with GitHub Actions](https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/)
 
-<a href="https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/"><img src="https://4bes.nl/wp-content/uploads/2020/02/prepare-AzFAVSCodetn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2020/06/githubCICDtn.png" height="250px"></a>
 
