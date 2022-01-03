@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
+## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
 
-<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
+<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
 
