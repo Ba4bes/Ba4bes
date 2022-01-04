@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
+## [Running a tech blog: Start blogging](https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/)
 
-<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/"><img src="https://4bes.nl/wp-content/uploads/2020/11/StartBlogtnb-2.png" height="250px"></a>
 
