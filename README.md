@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
+## [Use Azure Queue storage bindings in Azure PowerShell Function Apps](https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/)
 
-<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
+<a href="https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2019/11/PSFunctionApp.png" height="250px"></a>
 
