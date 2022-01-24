@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating Logic App deployment](https://4bes.nl/2019/03/15/automating-logicapp-deployment/)
+## [Get-PwshUpdates: Check for PowerShell updates and install them](https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/)
 
-<a href="https://4bes.nl/2019/03/15/automating-logicapp-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/03/logicappfi.png" height="250px"></a>
+<a href="https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/"><img src="https://4bes.nl/wp-content/uploads/2019/06/get-pwshupdatetn.png" height="250px"></a>
 
