@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step-by-Step: Deploy Azure PowerShell Functions with GitHub Actions](https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/)
+## [Azure DevOps YAML Multi-stage pipelines for ARM Templates](https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/)
 
-<a href="https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GitHubFunctionDeploytn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/05/YAMLmultistagetn-4.png" height="250px"></a>
 
