@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
