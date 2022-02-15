@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating with GitHub and Azure Function apps](https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/)
+## [From Bicep to ARM Template specs with Azure DevOps](https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/)
 
-<a href="https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2020/09/GitHubFAtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecsAzdotn.png" height="250px"></a>
 
