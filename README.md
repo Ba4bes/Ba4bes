@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [From Bicep to ARM Template specs with Azure DevOps](https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/)
+## [Azure DevOps job templates Part 2: Create a shared template repository](https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/)
 
-<a href="https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecsAzdotn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
