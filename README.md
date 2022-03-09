@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
+## [Get started with ARM templates](https://4bes.nl/2021/03/14/get-started-with-arm-templates/)
 
-<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/03/14/get-started-with-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2021/03/GetStartedWithARMtn.png" height="250px"></a>
 
