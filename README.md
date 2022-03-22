@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
+## [Running a tech blog: Keep going](https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/)
 
-<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/"><img src="https://4bes.nl/wp-content/uploads/2020/12/blogkeepgoingtn.png" height="250px"></a>
 
