@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Update all PowerShell modules on a system](https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/)
+## [Powershell Challenge: Check if a new Powershell Core version is available and install it after confirmation](https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/)
 
-<a href="https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/"><img src="https://4bes.nl/wp-content/uploads/2021/09/UpdateEveryPSModuletn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/"><img src="https://4bes.nl/wp-content/uploads/2019/01/fi_powershell-e1561889223224.png" height="250px"></a>
 
