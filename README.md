@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare to create an Azure PowerShell Function with Visual studio Code](https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/)
+## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
 
-<a href="https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/"><img src="https://4bes.nl/wp-content/uploads/2020/02/prepare-AzFAVSCodetn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
 
