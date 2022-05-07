@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Manually Create an Azure DevOps Service Connection to Azure](https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/)
+## [Getting started with Azure DevOps job and step Templates &#8211; Part 1](https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/)
 
-<a href="https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/"><img src="https://4bes.nl/wp-content/uploads/2019/07/AzdoAzConTNb.png" height="250px"></a>
+<a href="https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/"><img src="https://4bes.nl/wp-content/uploads/2019/07/azdotemplate1.png" height="250px"></a>
 
