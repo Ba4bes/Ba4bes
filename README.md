@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Azure DevOps for the IT Pro: tips &#038; tricks](https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/"><img src="https://4bes.nl/wp-content/uploads/2020/02/AzDoStarttn.png" height="250px"></a>
 
