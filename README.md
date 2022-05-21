@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Testing ARM Templates](https://4bes.nl/2020/08/09/testing-arm-templates/)
+## [Create an Azure DevOps service connection to Azure with PowerShell](https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/)
 
-<a href="https://4bes.nl/2020/08/09/testing-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/08/TestARMtn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/12/AzDo-AzureConnection-PStn.png" height="250px"></a>
 
