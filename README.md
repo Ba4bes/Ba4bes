@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Calling a REST API from PowerShell](https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/)
+## [Get started with ARM templates](https://4bes.nl/2021/03/14/get-started-with-arm-templates/)
 
-<a href="https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/08/PSRestAPItn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/03/14/get-started-with-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2021/03/GetStartedWithARMtn.png" height="250px"></a>
 
