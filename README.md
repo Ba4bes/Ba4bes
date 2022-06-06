@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Setup a build pipeline in Azure DevOps for ARM Templates Part II: using ARMHelper and YAML](https://4bes.nl/2019/04/19/build-pipeline-in-azure-devops-for-arm-templates-part-ii-using-armhelper-and-yaml/)
+## [Managing and automating Azure with an iPad](https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/)
 
-<a href="https://4bes.nl/2019/04/19/build-pipeline-in-azure-devops-for-arm-templates-part-ii-using-armhelper-and-yaml/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMCICD2_TN.png" height="250px"></a>
+<a href="https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
