@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Powershell Challenge: Check if a new Powershell Core version is available and install it after confirmation](https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/"><img src="https://4bes.nl/wp-content/uploads/2019/01/fi_powershell-e1561889223224.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
