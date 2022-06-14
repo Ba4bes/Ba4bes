@@ -6,7 +6,7 @@ Things you will find here:
 - ⛅ Azure
 - 🚗 Automation
 - 🐚 PowerShell
-- 💪 ARM Templates
+- 💪 Bicep
 - ⚡ Azure Functions
 - 🚀 Azure DevOps
 
