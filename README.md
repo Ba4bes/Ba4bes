@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a custom Azure DevOps pipeline task for PowerShell](https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/)
+## [Script: Test ARM Templates and show the resources that will be deployed](https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/)
 
-<a href="https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/"><img src="https://4bes.nl/wp-content/uploads/2021/02/AzDoTasktn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
