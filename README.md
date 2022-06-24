@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
+## [Create a composite GitHub Action for PowerShell](https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/)
 
-<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GHActiontn2-1.png" height="250px"></a>
 
