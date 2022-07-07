@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Azure Durable Functions for PowerShell](https://4bes.nl/2021/01/03/azure-durable-functions-for-powershell/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/03/azure-durable-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/azFPSDurable.png" height="250px"></a>
 
