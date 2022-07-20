@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Update PowerShell Modules in an Automation Account](https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/)
+## [25 days of serverless in PowerShell &#8211; Halfway there](https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/)
 
-<a href="https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/"><img src="https://4bes.nl/wp-content/uploads/2019/09/aaupdatemodules3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/"><img src="https://4bes.nl/wp-content/uploads/2019/12/tumbnail.png" height="250px"></a>
 
