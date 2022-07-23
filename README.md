@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
+## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
 
-<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzFunction-Modulestn.png" height="250px"></a>
 
