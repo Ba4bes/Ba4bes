@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Calling a REST API from PowerShell](https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/)
+## [Work with parameters in Bicep](https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/)
 
-<a href="https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/08/PSRestAPItn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/12/BicepParameterstn.png" height="250px"></a>
 
