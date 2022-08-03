@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Work with parameters in Bicep](https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/)
+## [Azure DevOps YAML Multi-stage pipelines for ARM Templates](https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/)
 
-<a href="https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/12/BicepParameterstn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/05/YAMLmultistagetn-4.png" height="250px"></a>
 
