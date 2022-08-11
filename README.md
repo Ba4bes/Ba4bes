@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Send email from PowerShell with a Logic App](https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/)
+## [Step by step: Test and deploy ARM Templates with GitHub Actions](https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/)
 
-<a href="https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2020/06/githubCICDtn.png" height="250px"></a>
 
