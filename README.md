@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Test and deploy ARM Templates with GitHub Actions](https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/)
+## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
 
-<a href="https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2020/06/githubCICDtn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzFunction-Modulestn.png" height="250px"></a>
 
