@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [ARMHelper: A module to help create ARM Templates](https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/)
+## [Migrate Azure DevOps repos with PowerShell](https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/)
 
-<a href="https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMhelper.png" height="250px"></a>
+<a href="https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
