@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
+## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
 
-<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
+<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
 
