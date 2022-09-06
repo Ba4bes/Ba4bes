@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
+## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
 
-<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
 
