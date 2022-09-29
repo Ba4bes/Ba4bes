@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy Azure Functions for PowerShell with Azure DevOps](https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/)
+## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
 
-<a href="https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
 
