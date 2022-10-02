@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Running a tech blog: Keep going](https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/)
+## [PowerLab: Quickly configure servers in Hyper-V using PowerShell direct](https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/)
 
-<a href="https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2019/03/31/powerlab-quickly-create-servers-in-hyperv-using-powershell-direct/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
