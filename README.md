@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
+## [I am a Microsoft Azure MVP!](https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/)
 
-<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/"><img src="https://4bes.nl/wp-content/uploads/2020/03/awardtn.jpg" height="250px"></a>
 
