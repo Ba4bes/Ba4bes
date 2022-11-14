@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
+## [Build and test an Azure tagging strategy with Bicep](https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/)
 
-<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
+<a href="https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2022/01/biceptags01b.png" height="250px"></a>
 
