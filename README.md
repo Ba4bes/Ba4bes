@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a Teams message when a runbook fails](https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/)
+## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
 
-<a href="https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/"><img src="https://4bes.nl/wp-content/uploads/2018/11/RunbookstatusTeams.png" height="250px"></a>
+<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
 
