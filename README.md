@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a secure GitHub webhook to trigger an Azure PowerShell Function](https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/)
+## [Step by step: Manually Create an Azure DevOps Service Connection to Azure](https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/)
 
-<a href="https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/"><img src="https://4bes.nl/wp-content/uploads/2021/04/GHSecureWebhooktn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/"><img src="https://4bes.nl/wp-content/uploads/2019/07/AzdoAzConTNb.png" height="250px"></a>
 
