@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps YAML Multi-stage pipelines for ARM Templates](https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/)
+## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
 
-<a href="https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/05/YAMLmultistagetn-4.png" height="250px"></a>
+<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
 
