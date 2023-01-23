@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [From Bicep to ARM Template specs with Azure DevOps](https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/)
+## [Terraform vs ARM Templates: My experience](https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/)
 
-<a href="https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecsAzdotn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/"><img src="https://4bes.nl/wp-content/uploads/2018/11/terrarm-copy.jpg" height="250px"></a>
 
