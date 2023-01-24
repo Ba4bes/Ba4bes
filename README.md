@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Terraform vs ARM Templates: My experience](https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/)
+## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
 
-<a href="https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/"><img src="https://4bes.nl/wp-content/uploads/2018/11/terrarm-copy.jpg" height="250px"></a>
+<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
 
