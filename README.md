@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
+## [Send email from PowerShell with SendGrid](https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/)
 
-<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
+<a href="https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn3.png" height="250px"></a>
 
