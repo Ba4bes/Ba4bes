@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
+## [Start using GIT for PowerShell part 2: Branches and pull requests](https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/)
 
-<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/"><img src="https://4bes.nl/wp-content/uploads/2020/04/Gitbranchestn3.png" height="250px"></a>
 
