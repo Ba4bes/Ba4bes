@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Configure Azure PowerShell Function Apps with Cosmos DB](https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/)
+## [Running a tech blog: Keep going](https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/)
 
-<a href="https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/"><img src="https://4bes.nl/wp-content/uploads/2020/05/AzFaCosmosDBtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/12/06/running-a-tech-blog-keep-going/"><img src="https://4bes.nl/wp-content/uploads/2020/12/blogkeepgoingtn.png" height="250px"></a>
 
