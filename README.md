@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Managing and automating Azure with an iPad](https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/)
+## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
 
-<a href="https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/"><img src="https://4bes.nl/wp-content/uploads/2019/02/ipadAzuretumbnail.jpg" height="250px"></a>
+<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
 
