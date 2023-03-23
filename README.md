@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a composite GitHub Action for PowerShell](https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/)
+## [Get started with ARM templates](https://4bes.nl/2021/03/14/get-started-with-arm-templates/)
 
-<a href="https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GHActiontn2-1.png" height="250px"></a>
+<a href="https://4bes.nl/2021/03/14/get-started-with-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2021/03/GetStartedWithARMtn.png" height="250px"></a>
 
