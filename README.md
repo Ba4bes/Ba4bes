@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Respond to a Teams message with a Logic App](https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/)
+## [Running a tech blog: Start blogging](https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/)
 
-<a href="https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/"><img src="https://4bes.nl/wp-content/uploads/2020/11/StartBlogtnb-2.png" height="250px"></a>
 
