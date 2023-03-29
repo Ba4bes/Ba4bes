@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Test ARM Templates and show the resources that will be deployed](https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/)
+## [Get started with Azure ARM Template specs](https://4bes.nl/2021/05/02/get-started-with-azure-arm-template-specs/)
 
-<a href="https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/"><img src="https://4bes.nl/wp-content/uploads/2018/12/arm.png" height="250px"></a>
+<a href="https://4bes.nl/2021/05/02/get-started-with-azure-arm-template-specs/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecstn.png" height="250px"></a>
 
