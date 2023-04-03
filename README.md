@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [PowerShell Challenge: Fixing my first PowerShell script](https://4bes.nl/2020/05/31/powershell-challenge-fixing-my-first-powershell-script/)
+## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
 
-<a href="https://4bes.nl/2020/05/31/powershell-challenge-fixing-my-first-powershell-script/"><img src="https://4bes.nl/wp-content/uploads/2020/05/PSChallenge_FirstScripttn2-1.png" height="250px"></a>
+<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
 
