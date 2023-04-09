@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Calling a REST API from PowerShell](https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/)
+## [Build and test an Azure tagging strategy with Bicep](https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/)
 
-<a href="https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/08/PSRestAPItn2.png" height="250px"></a>
+<a href="https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2022/01/biceptags01b.png" height="250px"></a>
 
