@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Step-by-Step: Deploy Azure PowerShell Functions with GitHub Actions](https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GitHubFunctionDeploytn2.png" height="250px"></a>
 
