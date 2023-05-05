@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Getting started with Azure DevOps job and step Templates &#8211; Part 1](https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/)
+## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
 
-<a href="https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/"><img src="https://4bes.nl/wp-content/uploads/2019/07/azdotemplate1.png" height="250px"></a>
+<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
 
