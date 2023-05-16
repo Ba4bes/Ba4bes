@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Manage Azure DevOps user licenses with PowerShell](https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/)
+## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
 
-<a href="https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/01/AzDoUserLicenses02.png" height="250px"></a>
+<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
 
