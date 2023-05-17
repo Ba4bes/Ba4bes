@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
+## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
 
-<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
 
