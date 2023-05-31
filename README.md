@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Test ARM Templates and show the resources that will be deployed](https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/)
+## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
 
-<a href="https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/"><img src="https://4bes.nl/wp-content/uploads/2018/12/arm.png" height="250px"></a>
+<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
 
