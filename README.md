@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [I&#8217;m speaking at WinOps in London](https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/)
+## [Get-PwshUpdates: Check for PowerShell updates and install them](https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/)
 
-<a href="https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/"><img src="https://4bes.nl/wp-content/uploads/2019/08/winops_logo_2018_001.png" height="250px"></a>
+<a href="https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/"><img src="https://4bes.nl/wp-content/uploads/2019/06/get-pwshupdatetn.png" height="250px"></a>
 
