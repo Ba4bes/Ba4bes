@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [25 days of serverless in PowerShell &#8211; Halfway there](https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/)
+## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
 
-<a href="https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/"><img src="https://4bes.nl/wp-content/uploads/2019/12/tumbnail.png" height="250px"></a>
+<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
 
