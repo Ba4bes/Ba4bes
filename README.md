@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Update all PowerShell modules on a system](https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/)
+## [Work with parameters in Bicep](https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/)
 
-<a href="https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/"><img src="https://4bes.nl/wp-content/uploads/2021/09/UpdateEveryPSModuletn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/12/BicepParameterstn.png" height="250px"></a>
 
