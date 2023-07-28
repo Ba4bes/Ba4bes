@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Terraform vs ARM Templates: My experience](https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/)
+## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
 
-<a href="https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/"><img src="https://4bes.nl/wp-content/uploads/2018/11/terrarm-copy.jpg" height="250px"></a>
+<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
 
