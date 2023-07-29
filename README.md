@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
+## [Backup and restore Conditional access policies with PowerShell](https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/)
 
-<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/11/BackupRestoreCA0tn2.png" height="250px"></a>
 
