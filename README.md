@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
+## [Setup a build pipeline in Azure DevOps for ARM Templates Part II: using ARMHelper and YAML](https://4bes.nl/2019/04/19/build-pipeline-in-azure-devops-for-arm-templates-part-ii-using-armhelper-and-yaml/)
 
-<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
+<a href="https://4bes.nl/2019/04/19/build-pipeline-in-azure-devops-for-arm-templates-part-ii-using-armhelper-and-yaml/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMCICD2_TN.png" height="250px"></a>
 
