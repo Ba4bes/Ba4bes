@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get started with ARM templates](https://4bes.nl/2021/03/14/get-started-with-arm-templates/)
+## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
 
-<a href="https://4bes.nl/2021/03/14/get-started-with-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2021/03/GetStartedWithARMtn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
 
