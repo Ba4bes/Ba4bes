@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build and test an Azure tagging strategy with Bicep](https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/)
+## [Script: Download and install powershell Core](https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/)
 
-<a href="https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/"><img src="https://4bes.nl/wp-content/uploads/2018/10/core-logo.png" height="250px"></a>
 
