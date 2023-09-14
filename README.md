@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Terraform vs ARM Templates: My experience](https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/)
+## [Calling a REST API from PowerShell](https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/)
 
-<a href="https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/"><img src="https://4bes.nl/wp-content/uploads/2018/11/terrarm-copy.jpg" height="250px"></a>
+<a href="https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/08/PSRestAPItn2.png" height="250px"></a>
 
