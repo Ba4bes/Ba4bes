@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Create linked runbookschedules with Powershell](https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/)
+## [I&#8217;m speaking at WinOps in London](https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/)
 
-<a href="https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/02/New-RunbookSchedule3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/"><img src="https://4bes.nl/wp-content/uploads/2019/08/winops_logo_2018_001.png" height="250px"></a>
 
