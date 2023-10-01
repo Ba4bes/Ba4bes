@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps job templates Part 2: Create a shared template repository](https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/)
+## [Respond to a Teams message with a Logic App](https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/)
 
-<a href="https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/"><img src="https://4bes.nl/wp-content/uploads/2019/08/JobTemplatesIItn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/10/TeamsLogicApptn.png" height="250px"></a>
 
