@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy Azure Functions for PowerShell with Azure DevOps](https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/)
+## [Using Logic Apps: Trigger an Azure runbook with an Office365 Calendar Appointment](https://4bes.nl/2019/02/18/using-logic-apps-trigger-an-azure-runbook-with-an-office365-calendar-appointment/)
 
-<a href="https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2019/06/FAv2TN.png" height="250px"></a>
+<a href="https://4bes.nl/2019/02/18/using-logic-apps-trigger-an-azure-runbook-with-an-office365-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2019/02/Mail-LA-runbook13.png" height="250px"></a>
 
