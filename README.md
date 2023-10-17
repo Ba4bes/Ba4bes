@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step-by-step: Deploy Bicep with Azure DevOps pipelines](https://4bes.nl/2021/04/18/step-by-step-deploy-bicep-with-azure-devops-pipelines/)
+## [Getting started with Azure DevOps job and step Templates &#8211; Part 1](https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/)
 
-<a href="https://4bes.nl/2021/04/18/step-by-step-deploy-bicep-with-azure-devops-pipelines/"><img src="https://4bes.nl/wp-content/uploads/2021/04/BicepDeployAzDoytn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/"><img src="https://4bes.nl/wp-content/uploads/2019/07/azdotemplate1.png" height="250px"></a>
 
