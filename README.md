@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
+## [ARMHelper: A module to help create ARM Templates](https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/)
 
-<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
+<a href="https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMhelper.png" height="250px"></a>
 
