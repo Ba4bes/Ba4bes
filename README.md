@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [ARMHelper: A module to help create ARM Templates](https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/)
+## [Step-by-step: Deploy Bicep with Azure DevOps pipelines](https://4bes.nl/2021/04/18/step-by-step-deploy-bicep-with-azure-devops-pipelines/)
 
-<a href="https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMhelper.png" height="250px"></a>
+<a href="https://4bes.nl/2021/04/18/step-by-step-deploy-bicep-with-azure-devops-pipelines/"><img src="https://4bes.nl/wp-content/uploads/2021/04/BicepDeployAzDoytn.png" height="250px"></a>
 
