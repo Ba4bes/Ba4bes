@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Send email from PowerShell with a Logic App](https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/)
+## [Script: Download and install powershell Core](https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/)
 
-<a href="https://4bes.nl/2020/01/05/send-email-from-powershell-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/01/PSSendMailtn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/"><img src="https://4bes.nl/wp-content/uploads/2018/10/core-logo.png" height="250px"></a>
 
