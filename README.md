@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Download and install powershell Core](https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/)
+## [From Bicep to ARM Template specs with Azure DevOps](https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/)
 
-<a href="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/"><img src="https://4bes.nl/wp-content/uploads/2018/10/core-logo.png" height="250px"></a>
+<a href="https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecsAzdotn.png" height="250px"></a>
 
