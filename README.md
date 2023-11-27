@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
+## [Creating an API to find an Azure resource abbreviation](https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/)
 
-<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/"><img src="https://4bes.nl/wp-content/uploads/2021/10/abbreviationAPItn.png" height="250px"></a>
 
