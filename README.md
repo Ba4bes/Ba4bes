@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
+## [Create a composite GitHub Action for PowerShell](https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/)
 
-<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GHActiontn2-1.png" height="250px"></a>
 
