@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Start using GIT for PowerShell part 2: Branches and pull requests](https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/)
+## [Script: Update PowerShell Modules in an Automation Account](https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/)
 
-<a href="https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/"><img src="https://4bes.nl/wp-content/uploads/2020/04/Gitbranchestn3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/"><img src="https://4bes.nl/wp-content/uploads/2019/09/aaupdatemodules3.png" height="250px"></a>
 
