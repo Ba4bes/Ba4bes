@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a consistent Azure naming convention with Bicep modules](https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/)
+## [Deploy from a Bicep Registry in Azure DevOps or GitHub Actions](https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/)
 
-<a href="https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/"><img src="https://4bes.nl/wp-content/uploads/2021/10/BicepNamingConventiontn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/11/BicepRegistryCICDtn.png" height="250px"></a>
 
