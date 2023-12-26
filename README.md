@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Manage Azure DevOps user licenses with PowerShell](https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/)
+## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
 
-<a href="https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/01/AzDoUserLicenses02.png" height="250px"></a>
+<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
 
