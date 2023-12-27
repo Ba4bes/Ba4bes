@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
+## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
 
-<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
+<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
 
