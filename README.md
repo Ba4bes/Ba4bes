@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
+## [Configure Azure PowerShell Function Apps with Cosmos DB](https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/)
 
-<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
+<a href="https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/"><img src="https://4bes.nl/wp-content/uploads/2020/05/AzFaCosmosDBtn2.png" height="250px"></a>
 
