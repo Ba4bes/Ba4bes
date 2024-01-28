@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare to create an Azure PowerShell Function with Visual studio Code](https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/)
+## [Build and test an Azure tagging strategy with Bicep](https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/)
 
-<a href="https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/"><img src="https://4bes.nl/wp-content/uploads/2020/02/prepare-AzFAVSCodetn.png" height="250px"></a>
+<a href="https://4bes.nl/2022/01/16/build-and-test-an-azure-tagging-strategy-in-bicep/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
