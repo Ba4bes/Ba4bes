@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Download and install powershell Core](https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/)
+## [MSIgnite: Recap and Random Session generator](https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/)
 
-<a href="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/"><img src="https://4bes.nl/wp-content/uploads/2018/10/core-logo.png" height="250px"></a>
+<a href="https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/"><img src="https://4bes.nl/wp-content/uploads/2019/11/20191103_180836r-e1573565691483.jpg" height="250px"></a>
 
