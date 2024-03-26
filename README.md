@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Configure Azure PowerShell Function Apps with Cosmos DB](https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/)
+## [Script: Create linked runbookschedules with Powershell](https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/)
 
-<a href="https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/"><img src="https://4bes.nl/wp-content/uploads/2020/05/AzFaCosmosDBtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/02/New-RunbookSchedule3.png" height="250px"></a>
 
