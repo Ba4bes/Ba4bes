@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Backup and restore Conditional access policies with PowerShell](https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/)
+## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
 
-<a href="https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/11/BackupRestoreCA0tn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
 
