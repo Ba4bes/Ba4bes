@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy from a Bicep Registry in Azure DevOps or GitHub Actions](https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/)
+## [Managing and automating Azure with an iPad](https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/)
 
-<a href="https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/11/BicepRegistryCICDtn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/"><img src="https://4bes.nl/wp-content/uploads/2019/02/ipadAzuretumbnail.jpg" height="250px"></a>
 
