@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
+## [Step by step: Setup a Build &#038; Deploy pipeline in Azure DevOps for ARM templates](https://4bes.nl/2018/12/26/step-by-step-setup-a-build-deploy-pipeline-in-azure-devops-for-arm-templates/)
 
-<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/12/26/step-by-step-setup-a-build-deploy-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2018/12/cicd-1.png" height="250px"></a>
 
