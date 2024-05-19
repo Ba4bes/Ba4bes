@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy Azure Functions for PowerShell with Azure DevOps](https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/)
+## [Step by step: Test and deploy ARM Templates with GitHub Actions](https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/)
 
-<a href="https://4bes.nl/2019/06/16/deploy-azure-functions-for-powershell-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2019/06/FAv2TN.png" height="250px"></a>
+<a href="https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2020/06/githubCICDtn.png" height="250px"></a>
 
