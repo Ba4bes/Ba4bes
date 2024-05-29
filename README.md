@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
+## [Work with parameters in Bicep](https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/)
 
-<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/12/BicepParameterstn.png" height="250px"></a>
 
