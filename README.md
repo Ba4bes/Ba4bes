@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [I&#8217;m speaking at Microsoft Ignite 2019](https://4bes.nl/2019/10/10/im-speaking-at-microsoft-ignite-2019/)
+## [Running a tech blog: Start blogging](https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/)
 
-<a href="https://4bes.nl/2019/10/10/im-speaking-at-microsoft-ignite-2019/"><img src="https://4bes.nl/wp-content/uploads/2019/10/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/08/running-a-tech-blog-start-blogging/"><img src="https://4bes.nl/wp-content/uploads/2020/11/StartBlogtnb-2.png" height="250px"></a>
 
