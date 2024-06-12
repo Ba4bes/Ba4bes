@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
+## [Azure DevOps job templates Part 2: Create a shared template repository](https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/)
 
-<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/"><img src="https://4bes.nl/wp-content/uploads/2019/08/JobTemplatesIItn.png" height="250px"></a>
 
