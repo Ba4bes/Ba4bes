@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Respond to a Teams message with a Logic App](https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/)
+## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
 
-<a href="https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/10/TeamsLogicApptn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
 
