@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Terraform vs ARM Templates: My experience](https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/24/terraform-vs-arm-templates-my-experience/"><img src="https://4bes.nl/wp-content/uploads/2018/11/terrarm-copy.jpg" height="250px"></a>
 
