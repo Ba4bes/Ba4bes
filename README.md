@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Configure Azure PowerShell Function Apps with Cosmos DB](https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/)
+## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
 
-<a href="https://4bes.nl/2020/05/03/configure-azure-powershell-function-apps-with-cosmos-db/"><img src="https://4bes.nl/wp-content/uploads/2020/05/AzFaCosmosDBtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
 
