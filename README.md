@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Creating an API to find an Azure resource abbreviation](https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/)
+## [PSSendgrid: Send email from PowerShell with Sendgrid](https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/)
 
-<a href="https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/"><img src="https://4bes.nl/wp-content/uploads/2021/10/abbreviationAPItn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSSendGridtn2.png" height="250px"></a>
 
