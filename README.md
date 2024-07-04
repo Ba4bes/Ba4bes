@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
+## [Azure Durable Functions for PowerShell:  Human interaction](https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/)
 
-<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/06/13/azure-durable-functions-for-powershell-human-interaction/"><img src="https://4bes.nl/wp-content/uploads/2021/06/AzF-Durable-HumanInteractiontn2.png" height="250px"></a>
 
