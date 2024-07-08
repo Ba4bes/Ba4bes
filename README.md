@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzFunction-Modulestn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
