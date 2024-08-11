@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
+## [Creating an API to find an Azure resource abbreviation](https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/)
 
-<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/"><img src="https://4bes.nl/wp-content/uploads/2021/10/abbreviationAPItn.png" height="250px"></a>
 
