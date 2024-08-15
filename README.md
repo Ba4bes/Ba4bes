@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Getting started with Azure DevOps job and step Templates &#8211; Part 1](https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/)
+## [Managing and automating Azure with an iPad](https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/)
 
-<a href="https://4bes.nl/2019/07/31/getting-started-with-azure-devops-job-and-step-templates-part-1/"><img src="https://4bes.nl/wp-content/uploads/2019/07/azdotemplate1.png" height="250px"></a>
+<a href="https://4bes.nl/2019/03/02/managing-and-automating-azure-with-an-ipad/"><img src="https://4bes.nl/wp-content/uploads/2019/02/ipadAzuretumbnail.jpg" height="250px"></a>
 
