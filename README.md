@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [ARM Template what-if deployment](https://4bes.nl/2020/05/17/arm-template-what-if-deployment/)
+## [I&#8217;m speaking at WinOps in London](https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/)
 
-<a href="https://4bes.nl/2020/05/17/arm-template-what-if-deployment/"><img src="https://4bes.nl/wp-content/uploads/2020/05/ARMDeployWhatif04.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/"><img src="https://4bes.nl/wp-content/uploads/2019/08/winops_logo_2018_001.png" height="250px"></a>
 
