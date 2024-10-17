@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps YAML Multi-stage pipelines for ARM Templates](https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/)
+## [From Bicep to ARM Template specs with Azure DevOps](https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/)
 
-<a href="https://4bes.nl/2019/05/12/use-azure-devops-yaml-multi-stage-pipelines-for-arm-template-deployment/"><img src="https://4bes.nl/wp-content/uploads/2019/05/YAMLmultistagetn-4.png" height="250px"></a>
+<a href="https://4bes.nl/2021/05/09/from-bicep-to-arm-template-specs-with-azure-devops/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecsAzdotn.png" height="250px"></a>
 
