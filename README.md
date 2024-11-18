@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps job templates Part 2: Create a shared template repository](https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/)
+## [MSIgnite: Recap and Random Session generator](https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/)
 
-<a href="https://4bes.nl/2019/08/08/azure-devops-job-templates-part-2-create-a-shared-template-repository/"><img src="https://4bes.nl/wp-content/uploads/2019/08/JobTemplatesIItn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/"><img src="https://4bes.nl/wp-content/uploads/2019/11/20191103_180836r-e1573565691483.jpg" height="250px"></a>
 
