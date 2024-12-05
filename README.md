@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [25 days of serverless in PowerShell &#8211; Halfway there](https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/)
+## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
 
-<a href="https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/"><img src="https://4bes.nl/wp-content/uploads/2019/12/tumbnail.png" height="250px"></a>
+<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
 
