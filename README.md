@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
+## [Deploy Azure DevOps Agents through an Azure DevOps pipeline](https://4bes.nl/2019/09/30/deploy-azure-devops-agents-through-an-azure-devops-pipeline/)
 
-<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzFunction-Modulestn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/09/30/deploy-azure-devops-agents-through-an-azure-devops-pipeline/"><img src="https://4bes.nl/wp-content/uploads/2019/09/AgentPool1.png" height="250px"></a>
 
