@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy Azure DevOps Agents through an Azure DevOps pipeline](https://4bes.nl/2019/09/30/deploy-azure-devops-agents-through-an-azure-devops-pipeline/)
+## [Respond to a Teams message with a Logic App](https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/)
 
-<a href="https://4bes.nl/2019/09/30/deploy-azure-devops-agents-through-an-azure-devops-pipeline/"><img src="https://4bes.nl/wp-content/uploads/2019/09/AgentPool1.png" height="250px"></a>
+<a href="https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/10/TeamsLogicApptn.png" height="250px"></a>
 
