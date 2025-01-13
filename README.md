@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Manage Azure DevOps user licenses with PowerShell](https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/)
+## [I&#8217;m speaking at WinOps in London](https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/)
 
-<a href="https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/01/AzDoUserLicenses02.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/"><img src="https://4bes.nl/wp-content/uploads/2019/08/winops_logo_2018_001.png" height="250px"></a>
 
