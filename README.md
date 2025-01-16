@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy from a Bicep Registry in Azure DevOps or GitHub Actions](https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2021/11/28/deploy-from-a-bicep-registry-in-azure-devops-or-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/11/BicepRegistryCICDtn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
