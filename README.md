@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use Azure Queue storage bindings in Azure PowerShell Function Apps](https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/)
+## [Get a consistent Azure naming convention with Bicep modules](https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/)
 
-<a href="https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2019/11/PSFunctionApp.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/"><img src="https://4bes.nl/wp-content/uploads/2021/10/BicepNamingConventiontn.png" height="250px"></a>
 
