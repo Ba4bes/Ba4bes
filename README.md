@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a composite GitHub Action for PowerShell](https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/)
+## [I&#8217;m speaking at WinOps in London](https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/)
 
-<a href="https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GHActiontn2-1.png" height="250px"></a>
+<a href="https://4bes.nl/2019/08/23/im-speaking-at-winops-in-london/"><img src="https://4bes.nl/wp-content/uploads/2019/08/winops_logo_2018_001.png" height="250px"></a>
 
