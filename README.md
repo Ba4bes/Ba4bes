@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Powershell Challenge: Check if a new Powershell Core version is available and install it after confirmation](https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/)
+## [Create a secure GitHub webhook to trigger an Azure PowerShell Function](https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/)
 
-<a href="https://4bes.nl/2019/01/04/powershell-challenge-check-pwsh-version-and-install/"><img src="https://4bes.nl/wp-content/uploads/2019/01/fi_powershell-e1561889223224.png" height="250px"></a>
+<a href="https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/"><img src="https://4bes.nl/wp-content/uploads/2021/04/GHSecureWebhooktn.png" height="250px"></a>
 
