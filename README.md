@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a secure GitHub webhook to trigger an Azure PowerShell Function](https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/)
+## [Backup and restore Conditional access policies with PowerShell](https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/)
 
-<a href="https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/"><img src="https://4bes.nl/wp-content/uploads/2021/04/GHSecureWebhooktn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/11/BackupRestoreCA0tn2.png" height="250px"></a>
 
