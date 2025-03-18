@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Add custom modules to Azure functions for PowerShell](https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/)
+## [Powerlab: Populate AD and install DHCP](https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/)
 
-<a href="https://4bes.nl/2021/07/11/add-custom-modules-to-azure-functions-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzFunction-Modulestn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/25/powerlab-populate-ad-and-install-dhcp/"><img src="https://4bes.nl/wp-content/uploads/2018/11/PowerLab_ADUC_DHCP.png" height="250px"></a>
 
