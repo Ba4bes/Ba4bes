@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
+## [Create role assignments for different scopes with Bicep](https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/)
 
-<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
+<a href="https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/"><img src="https://4bes.nl/wp-content/uploads/2022/04/bicep-rbactn.png" height="250px"></a>
 
