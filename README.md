@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [PSSendgrid: Send email from PowerShell with Sendgrid](https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/)
+## [Use GitHub Codespaces for Azure PowerShell Function apps](https://4bes.nl/2022/11/13/use-github-codespaces-for-azure-powershell-function-apps/)
 
-<a href="https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSSendGridtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2022/11/13/use-github-codespaces-for-azure-powershell-function-apps/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
