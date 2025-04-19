@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Start using GIT for PowerShell part 2: Branches and pull requests](https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/)
+## [Step by step: Manually Create an Azure DevOps Service Connection to Azure](https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/)
 
-<a href="https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/"><img src="https://4bes.nl/wp-content/uploads/2020/04/Gitbranchestn3.png" height="250px"></a>
+<a href="https://4bes.nl/2019/07/11/step-by-step-manually-create-an-azure-devops-service-connection-to-azure/"><img src="https://4bes.nl/wp-content/uploads/2019/07/AzdoAzConTNb.png" height="250px"></a>
 
