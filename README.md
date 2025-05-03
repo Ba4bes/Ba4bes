@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
+## [Automating with GitHub and Azure Function apps](https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/)
 
-<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2020/09/GitHubFAtn2.png" height="250px"></a>
 
