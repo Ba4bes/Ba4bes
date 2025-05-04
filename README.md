@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating with GitHub and Azure Function apps](https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/)
+## [Testing ARM Templates](https://4bes.nl/2020/08/09/testing-arm-templates/)
 
-<a href="https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2020/09/GitHubFAtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/08/09/testing-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/08/TestARMtn.png" height="250px"></a>
 
