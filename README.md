@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a composite GitHub Action for PowerShell](https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/)
+## [Create role assignments for different scopes with Bicep](https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/)
 
-<a href="https://4bes.nl/2021/01/31/create-a-composite-github-action-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/01/GHActiontn2-1.png" height="250px"></a>
+<a href="https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/"><img src="https://4bes.nl/wp-content/uploads/2022/04/bicep-rbactn.png" height="250px"></a>
 
