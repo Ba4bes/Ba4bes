@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create role assignments for different scopes with Bicep](https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/)
+## [Get a consistent Azure naming convention with Bicep modules](https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/)
 
-<a href="https://4bes.nl/2022/04/24/create-role-assignments-for-different-scopes-with-bicep/"><img src="https://4bes.nl/wp-content/uploads/2022/04/bicep-rbactn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/"><img src="https://4bes.nl/wp-content/uploads/2021/10/BicepNamingConventiontn.png" height="250px"></a>
 
