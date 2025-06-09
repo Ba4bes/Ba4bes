@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Test and deploy ARM Templates with GitHub Actions](https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/)
+## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
 
-<a href="https://4bes.nl/2020/06/28/step-by-step-test-and-deploy-arm-templates-with-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2020/06/githubCICDtn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
 
