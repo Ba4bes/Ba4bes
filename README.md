@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Make generated ARM Templates production-ready](https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/)
+## [PSSendgrid: Send email from PowerShell with Sendgrid](https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/)
 
-<a href="https://4bes.nl/2019/05/09/make-generated-arm-templates-production-ready/"><img src="https://4bes.nl/wp-content/uploads/2019/05/CustomARMT2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSSendGridtn2.png" height="250px"></a>
 
