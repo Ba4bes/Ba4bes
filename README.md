@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Respond to a Teams message with a Logic App](https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/)
+## [MSIgnite: Recap and Random Session generator](https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/)
 
-<a href="https://4bes.nl/2020/10/18/respond-to-a-teams-message-with-a-logic-app/"><img src="https://4bes.nl/wp-content/uploads/2020/10/TeamsLogicApptn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/"><img src="https://4bes.nl/wp-content/uploads/2019/11/20191103_180836r-e1573565691483.jpg" height="250px"></a>
 
