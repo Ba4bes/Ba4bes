@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Configure Azure Functions for PowerShell in the portal](https://4bes.nl/2019/06/12/configure-azure-functions-for-powershell-in-the-portal/)
+## [ARMHelper: A module to help create ARM Templates](https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/)
 
-<a href="https://4bes.nl/2019/06/12/configure-azure-functions-for-powershell-in-the-portal/"><img src="https://4bes.nl/wp-content/uploads/2019/06/FunctionApp4.png" height="250px"></a>
+<a href="https://4bes.nl/2019/04/11/armhelper-a-module-to-help-create-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2019/04/ARMhelper.png" height="250px"></a>
 
