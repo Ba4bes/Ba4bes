@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps for the IT Pro: tips &#038; tricks](https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/)
+## [Migrate Azure DevOps repos with PowerShell](https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/)
 
-<a href="https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/"><img src="https://4bes.nl/wp-content/uploads/2020/02/AzDoStarttn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzDo-MigrateRepotne.png" height="250px"></a>
 
