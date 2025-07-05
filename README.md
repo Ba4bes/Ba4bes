@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Migrate Azure DevOps repos with PowerShell](https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/)
+## [Step-by-Step: Deploy Azure PowerShell Functions with GitHub Actions](https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/)
 
-<a href="https://4bes.nl/2021/07/25/migrate-azure-devops-repos-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2021/07/AzDo-MigrateRepotne.png" height="250px"></a>
+<a href="https://4bes.nl/2021/01/17/step-by-step-deploy-azure-powershell-functions-with-github-actions/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
 
