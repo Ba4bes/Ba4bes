@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Calling a REST API from PowerShell](https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/)
+## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
 
-<a href="https://4bes.nl/2020/08/23/calling-a-rest-api-from-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/08/PSRestAPItn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
 
