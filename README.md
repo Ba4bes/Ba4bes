@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Start using GIT for PowerShell part 2: Branches and pull requests](https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/)
+## [Step by Step: Create a Devtest Labs custom image based on an Azure VM](https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/)
 
-<a href="https://4bes.nl/2020/04/19/start-using-git-for-powershell-part-2-branches-and-pull-requests/"><img src="https://4bes.nl/wp-content/uploads/2020/04/Gitbranchestn3.png" height="250px"></a>
+<a href="https://4bes.nl/2018/10/27/step-by-step-create-a-devtest-labs-custom-image-based-on-an-azure-vm/"><img src="https://4bes.nl/wp-content/uploads/2018/10/devtestlabs.png" height="250px"></a>
 
