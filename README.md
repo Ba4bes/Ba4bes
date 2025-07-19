@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a consistent Azure naming convention with Bicep modules](https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/)
+## [PowerShell Challenge: Fixing my first PowerShell script](https://4bes.nl/2020/05/31/powershell-challenge-fixing-my-first-powershell-script/)
 
-<a href="https://4bes.nl/2021/10/10/get-a-consistent-azure-naming-convention-with-bicep-modules/"><img src="https://4bes.nl/wp-content/uploads/2021/10/BicepNamingConventiontn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/05/31/powershell-challenge-fixing-my-first-powershell-script/"><img src="https://4bes.nl/wp-content/uploads/2020/05/PSChallenge_FirstScripttn2-1.png" height="250px"></a>
 
