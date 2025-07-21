@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create an Azure DevOps service connection to Azure with PowerShell](https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/)
+## [I am a Microsoft Azure MVP!](https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/)
 
-<a href="https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/12/AzDo-AzureConnection-PStn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/03/15/i-am-a-microsoft-azure-mvp/"><img src="https://4bes.nl/wp-content/uploads/2020/03/awardtn.jpg" height="250px"></a>
 
