@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Send email from PowerShell with SendGrid](https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/)
+## [Deploy a test environment with a calendar appointment](https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/)
 
-<a href="https://4bes.nl/2020/01/19/send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2020/04/appliedCloudtn2.png" height="250px"></a>
 
