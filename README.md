@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Test ARM Templates and show the resources that will be deployed](https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/)
+## [Work with parameters in Bicep](https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/)
 
-<a href="https://4bes.nl/2018/12/14/script-test-arm-templates-and-show-the-deployed-resources/"><img src="https://4bes.nl/wp-content/uploads/2018/12/arm.png" height="250px"></a>
+<a href="https://4bes.nl/2021/12/23/work-with-parameters-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/12/BicepParameterstn.png" height="250px"></a>
 
