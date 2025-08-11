@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [MSIgnite: Recap and Random Session generator](https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/)
+## [Get-PwshUpdates: Check for PowerShell updates and install them](https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/)
 
-<a href="https://4bes.nl/2019/11/14/msignite-recap-and-random-session-generator/"><img src="https://4bes.nl/wp-content/uploads/2019/11/20191103_180836r-e1573565691483.jpg" height="250px"></a>
+<a href="https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/"><img src="https://4bes.nl/wp-content/uploads/2019/06/get-pwshupdatetn.png" height="250px"></a>
 
