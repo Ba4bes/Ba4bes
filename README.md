@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get-PwshUpdates: Check for PowerShell updates and install them](https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/)
+## [Deploy a test environment with a calendar appointment](https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/)
 
-<a href="https://4bes.nl/2019/06/30/get-pwshupdates-check-if-there-is-a-powershell-update-available-and-install-it/"><img src="https://4bes.nl/wp-content/uploads/2019/06/get-pwshupdatetn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2020/04/appliedCloudtn2.png" height="250px"></a>
 
