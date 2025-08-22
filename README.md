@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automate Azure update management scheduling with PowerShell](https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/)
+## [Powershell Challenge: Create a clock](https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/)
 
-<a href="https://4bes.nl/2020/07/12/automate-azure-update-management-scheduling-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSUpdateSchedule02b.png" height="250px"></a>
+<a href="https://4bes.nl/2018/11/02/powershell-challenge-create-a-clock/"><img src="https://4bes.nl/wp-content/uploads/2018/11/clock.png" height="250px"></a>
 
