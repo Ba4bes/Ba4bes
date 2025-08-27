@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [PSSendgrid: Send email from PowerShell with Sendgrid](https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/)
+## [Backup and restore Conditional access policies with PowerShell](https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/)
 
-<a href="https://4bes.nl/2020/07/26/pssendgrid-send-email-from-powershell-with-sendgrid/"><img src="https://4bes.nl/wp-content/uploads/2020/07/PSSendGridtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/11/22/backup-and-restore-conditional-access-policies-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/11/BackupRestoreCA0tn2.png" height="250px"></a>
 
