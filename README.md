@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating with GitHub and Azure Function apps](https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/)
+## [Use For loops in Bicep](https://4bes.nl/2021/08/08/use-for-loops-in-bicep/)
 
-<a href="https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2020/09/GitHubFAtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/08/08/use-for-loops-in-bicep/"><img src="https://4bes.nl/wp-content/uploads/2021/08/Bicep-forloopstn.png" height="250px"></a>
 
