@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Start using GIT for PowerShell scripts](https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/)
+## [Script: Download and install powershell Core](https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/)
 
-<a href="https://4bes.nl/2019/06/02/step-by-step-start-using-git-for-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/06/tn.png" height="250px"></a>
+<a href="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/"><img src="https://4bes.nl/wp-content/uploads/2018/10/core-logo.png" height="250px"></a>
 
