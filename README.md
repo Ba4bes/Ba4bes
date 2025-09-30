@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Get a Teams message when a runbook fails](https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/)
+## [Create a secure GitHub webhook to trigger an Azure PowerShell Function](https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/)
 
-<a href="https://4bes.nl/2018/11/16/get-a-teams-message-when-a-runbook-fails/"><img src="https://4bes.nl/2018/10/16/script-download-and-install-powershell-core/" height="250px"></a>
+<a href="https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/"><img src="https://4bes.nl/wp-content/uploads/2021/04/GHSecureWebhooktn.png" height="250px"></a>
 
