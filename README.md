@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Step by step: Setup a CICD pipeline in Azure DevOps for ARM templates](https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/)
+## [Create a custom Azure DevOps pipeline task for PowerShell](https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/)
 
-<a href="https://4bes.nl/2020/06/14/step-by-step-setup-a-cicd-pipeline-in-azure-devops-for-arm-templates/"><img src="https://4bes.nl/wp-content/uploads/2020/06/ARMDeployII19.png" height="250px"></a>
+<a href="https://4bes.nl/2021/02/21/create-a-custom-azure-devops-powershell-task/"><img src="https://4bes.nl/wp-content/uploads/2021/02/AzDoTasktn.png" height="250px"></a>
 
