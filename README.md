@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Script: Create linked runbookschedules with Powershell](https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/)
+## [Create a secure GitHub webhook to trigger an Azure PowerShell Function](https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/)
 
-<a href="https://4bes.nl/2019/02/08/script-create-linked-runbookschedules-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2019/02/New-RunbookSchedule3.png" height="250px"></a>
+<a href="https://4bes.nl/2021/04/04/create-a-secure-github-webhook-to-trigger-an-azure-powershell-function/"><img src="https://4bes.nl/wp-content/uploads/2021/04/GHSecureWebhooktn.png" height="250px"></a>
 
