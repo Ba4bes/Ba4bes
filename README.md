@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Prepare to create an Azure PowerShell Function with Visual studio Code](https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/)
+## [Update all PowerShell modules on a system](https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/)
 
-<a href="https://4bes.nl/2020/02/13/prepare-to-create-an-azure-powershell-function-with-visual-studio-code/"><img src="https://4bes.nl/wp-content/uploads/2020/02/prepare-AzFAVSCodetn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/"><img src="https://4bes.nl/wp-content/uploads/2021/09/UpdateEveryPSModuletn.png" height="250px"></a>
 
