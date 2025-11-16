@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Update all PowerShell modules on a system](https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/)
+## [Manage Azure DevOps user licenses with PowerShell](https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/)
 
-<a href="https://4bes.nl/2021/09/19/update-all-powershell-modules-on-a-system/"><img src="https://4bes.nl/wp-content/uploads/2021/09/UpdateEveryPSModuletn.png" height="250px"></a>
+<a href="https://4bes.nl/2020/02/02/manage-azure-devops-user-licenses-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/01/AzDoUserLicenses02.png" height="250px"></a>
 
