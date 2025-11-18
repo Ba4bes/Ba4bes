@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Set up Azure DevOps and Github with Azure Automation Source control](https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/01/13/set-up-azure-devops-and-github-with-azure-automation-source-control/"><img src="https://4bes.nl/wp-content/uploads/2019/01/AzAutSourceControlFIPNG-1.png" height="250px"></a>
 
