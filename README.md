@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [25 days of serverless in PowerShell &#8211; Halfway there](https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/)
+## [Azure DevOps for the IT Pro: tips &#038; tricks](https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/)
 
-<a href="https://4bes.nl/2019/12/16/25-days-of-serverless-in-powershell-halfway-there/"><img src="https://4bes.nl/wp-content/uploads/2019/12/tumbnail.png" height="250px"></a>
+<a href="https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/"><img src="https://4bes.nl/wp-content/uploads/2020/02/AzDoStarttn.png" height="250px"></a>
 
