@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Automating with GitHub and Azure Function apps](https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/)
+## [Deploy a test environment with a calendar appointment](https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/)
 
-<a href="https://4bes.nl/2020/09/02/automating-with-github-and-azure-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2020/09/GitHubFAtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2020/04/appliedCloudtn2.png" height="250px"></a>
 
