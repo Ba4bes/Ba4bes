@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Deploy a test environment with a calendar appointment](https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/)
+## [Script: Update PowerShell Modules in an Automation Account](https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/)
 
-<a href="https://4bes.nl/2020/04/02/deploy-a-test-environment-with-a-calendar-appointment/"><img src="https://4bes.nl/wp-content/uploads/2020/04/appliedCloudtn2.png" height="250px"></a>
+<a href="https://4bes.nl/2019/09/05/script-update-all-powershell-modules-in-your-automation-account/"><img src="https://4bes.nl/wp-content/uploads/2019/09/aaupdatemodules3.png" height="250px"></a>
 
