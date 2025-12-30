@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Create a website with Hugo and GitHub Pages](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/)
+## [Get started with Azure ARM Template specs](https://4bes.nl/2021/05/02/get-started-with-azure-arm-template-specs/)
 
-<a href="https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/"><img src="https://4bes.nl/wp-content/uploads/2021/08/HugoGHPagestn2.png" height="250px"></a>
+<a href="https://4bes.nl/2021/05/02/get-started-with-azure-arm-template-specs/"><img src="https://4bes.nl/wp-content/uploads/2021/05/TemplateSpecstn.png" height="250px"></a>
 
