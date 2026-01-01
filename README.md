@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Azure DevOps for the IT Pro: tips &#038; tricks](https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/)
+## [Use Azure Queue storage bindings in Azure PowerShell Function Apps](https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/)
 
-<a href="https://4bes.nl/2020/03/04/azure-devops-for-the-it-pro-tips-tricks/"><img src="https://4bes.nl/wp-content/uploads/2020/02/AzDoStarttn.png" height="250px"></a>
+<a href="https://4bes.nl/2019/12/02/use-queue-storage-bindings-in-azure-powershell-function-apps/"><img src="https://4bes.nl/wp-content/uploads/2019/11/PSFunctionApp.png" height="250px"></a>
 
