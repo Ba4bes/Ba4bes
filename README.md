@@ -34,7 +34,7 @@ Things you will find here:
 (this post gets updated every day by GitHub Actions! )
 
 <!-- Link -->
-## [Build, test and deploy Bicep through GitHub Actions](https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/)
+## [Creating an API to find an Azure resource abbreviation](https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/)
 
-<a href="https://4bes.nl/2021/06/27/build-test-and-deploy-bicep-through-github-actions/"><img src="https://4bes.nl/wp-content/uploads/2021/06/Bicep-GHActionstn.png" height="250px"></a>
+<a href="https://4bes.nl/2021/10/24/api-to-collect-azure-resource-abbreviations/"><img src="https://4bes.nl/wp-content/uploads/2021/10/abbreviationAPItn.png" height="250px"></a>
 
