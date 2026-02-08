@@ -14,11 +14,11 @@ $DecayPerCycle = 1  # Interaction bonus decay per 6-hour cycle
 
 # Mood thresholds and images
 $MoodConfig = @{
-    sad      = @{ min = 0;  max = 20;  image = "Assets/poodle-sad.svg";      emoji = "😢" }
-    bored    = @{ min = 21; max = 40;  image = "Assets/poodle-bored.svg";    emoji = "😐" }
-    content  = @{ min = 41; max = 60;  image = "Assets/poodle-content.svg";  emoji = "🙂" }
-    happy    = @{ min = 61; max = 80;  image = "Assets/poodle-happy.svg";    emoji = "😊" }
-    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.svg"; emoji = "🎉" }
+    sad      = @{ min = 0;  max = 20;  image = "Assets/poodle-sad.png";      emoji = "😢" }
+    bored    = @{ min = 21; max = 40;  image = "Assets/poodle-bored.png";    emoji = "😐" }
+    content  = @{ min = 41; max = 60;  image = "Assets/poodle-content.png";  emoji = "🙂" }
+    happy    = @{ min = 61; max = 80;  image = "Assets/poodle-happy.png";    emoji = "😊" }
+    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.png"; emoji = "🎉" }
 }
 
 function Get-GitHubContributions {

@@ -33,7 +33,7 @@ Things you will find here:
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="Assets/poodle-content.svg" alt="content poodle" width="200">
+<img src="Assets/poodle-content.png" alt="content poodle" width="200">
 
 ### 🙂 **CONTENT** 🙂
 **Mood Score:** 50/100
