@@ -1,0 +1,49 @@
+{
+  "data": {
+    "user": {
+      "contributionsCollection": {
+        "contributionCalendar": {
+          "totalContributions": 142,
+          "weeks": [
+            {
+              "contributionDays": [
+                { "contributionCount": 5, "date": "2026-02-08" },
+                { "contributionCount": 3, "date": "2026-02-07" },
+                { "contributionCount": 0, "date": "2026-02-06" },
+                { "contributionCount": 2, "date": "2026-02-05" },
+                { "contributionCount": 1, "date": "2026-02-04" },
+                { "contributionCount": 0, "date": "2026-02-03" },
+                { "contributionCount": 4, "date": "2026-02-02" }
+              ]
+            },
+            {
+              "contributionDays": [
+                { "contributionCount": 2, "date": "2026-02-01" },
+                { "contributionCount": 0, "date": "2026-01-31" },
+                { "contributionCount": 3, "date": "2026-01-30" },
+                { "contributionCount": 1, "date": "2026-01-29" },
+                { "contributionCount": 0, "date": "2026-01-28" },
+                { "contributionCount": 2, "date": "2026-01-27" },
+                { "contributionCount": 0, "date": "2026-01-26" }
+              ]
+            },
+            {
+              "contributionDays": [
+                { "contributionCount": 1, "date": "2026-01-25" },
+                { "contributionCount": 0, "date": "2026-01-24" },
+                { "contributionCount": 3, "date": "2026-01-23" },
+                { "contributionCount": 0, "date": "2026-01-22" },
+                { "contributionCount": 0, "date": "2026-01-21" },
+                { "contributionCount": 2, "date": "2026-01-20" },
+                { "contributionCount": 0, "date": "2026-01-19" }
+              ]
+            }
+          ]
+        }
+      },
+      "repositories": {
+        "totalCount": 25
+      }
+    }
+  }
+}

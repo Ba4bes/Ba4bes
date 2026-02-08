@@ -1,34 +1,5 @@
 ![Github Star](Assets/github-stars-logo_Color.png)
 
-## Hi there 👋
-
-Things you will find here:
-- ⛅ Azure
-- 🚗 Automation
-- 🐚 PowerShell
-- 💪 Bicep
-- ⚡ Azure Functions
-- 🚀 Azure DevOps
-
-
-## 📝 my blog
-<https://4bes.nl>
-
-## Reach me on Twitter
-🐦[@Ba4bes](https://twitter.com/Ba4bes)
-
-<!---
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: I have a standard poodle 🐩
-
--->
-<!--START_SECTION:poodle-->
 <div align="center">
 
 ## 🐩 Mood Poodle 🐩
@@ -42,15 +13,7 @@ Things you will find here:
 
 ---
 
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | Never |
-| Contributions (7 days) | 0 |
-| Contributions (30 days) | 0 |
-| Repositories | 0 |
-
-🐾 **Interaction Stats**
+� **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | 0 |
@@ -66,16 +29,28 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 - `!pet` - Give the poodle some pets 🐾
 - `!feed` - Give the poodle a treat 🍖
 
-<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | Never |
+| Contributions (7 days) | 0 |
+| Contributions (30 days) | 0 |
+| Repositories | 0 |
+
+
 
 </div>
 <!--END_SECTION:poodle-->
-## ⭐Random Blog post⭐
 
-(this post gets updated every day by GitHub Actions! )
+---
 
-<!-- Link -->
-## [Create an Azure DevOps service connection to Azure with PowerShell](https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/)
+## 🤖 About This Project
 
-<a href="https://4bes.nl/2020/12/20/create-an-azure-devops-service-connection-to-azure-with-powershell/"><img src="https://4bes.nl/wp-content/uploads/2020/12/AzDo-AzureConnection-PStn.png" height="250px"></a>
+This repository was created with the assistance of AI models to demonstrate automated GitHub profile interactions with a virtual poodle.
 
+### AI Models Used
+- **GitHub Copilot** - Using GPT-5, Claude Opus 4.6 and Claude Sonnet 4.5 
+
+Key prompts can be found in the prompts folder

@@ -1,0 +1,51 @@
+{
+  "mood": {
+    "score": 65,
+    "state": "happy",
+    "lastCalculated": "2026-02-07T12:00:00Z"
+  },
+  "decay": {
+    "interactionBonus": 9,
+    "lastDecayApplied": "2026-02-07T12:00:00Z"
+  },
+  "interactions": {
+    "totalPets": 5,
+    "totalFeeds": 3,
+    "log": [
+      {
+        "username": "testuser1",
+        "type": "pet",
+        "timestamp": "2026-02-07T10:00:00Z",
+        "issueNum": 42
+      },
+      {
+        "username": "testuser2",
+        "type": "feed",
+        "timestamp": "2026-02-07T11:00:00Z",
+        "issueNum": 42
+      },
+      {
+        "username": "testuser1",
+        "type": "pet",
+        "timestamp": "2026-02-07T11:30:00Z",
+        "issueNum": 42
+      }
+    ]
+  },
+  "contributions": {
+    "lastContributionDate": "2026-02-07",
+    "count7Days": 12,
+    "count30Days": 45,
+    "repoCount": 25,
+    "lastFetched": "2026-02-07T12:00:00Z"
+  },
+  "rateLimits": {
+    "testuser1": [
+      "2026-02-07T10:00:00Z",
+      "2026-02-07T11:30:00Z"
+    ],
+    "testuser2": [
+      "2026-02-07T11:00:00Z"
+    ]
+  }
+}
