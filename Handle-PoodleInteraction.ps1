@@ -119,12 +119,9 @@ function Add-GitHubIssueComment {
         [string]$Comment
     )
 
-    begin {
-        Write-Verbose "Preparing to post comment to issue #$IssueNumber"
-    }
+    Write-Verbose "Preparing to post comment to issue #$IssueNumber"
 
-    process {
-        $headers = @{
+    $headers = @{
             'Authorization' = "Bearer $Token"
             'Accept'        = 'application/vnd.github.v3+json'
         }
@@ -136,9 +133,8 @@ function Add-GitHubIssueComment {
             $null = Invoke-RestMethod -Uri $uri -Method Post -Headers $headers -Body $body -ErrorAction Stop
             Write-Verbose "Comment posted to issue #$IssueNumber"
         }
-        catch {
-            Write-Warning "Failed to post comment to issue #$IssueNumber`: $_"
-        }
+    catch {
+        Write-Warning "Failed to post comment to issue #$IssueNumber`: $_"
     }
 }
 
@@ -174,12 +170,9 @@ function Close-GitHubIssue {
         [string]$IssueNumber
     )
 
-    begin {
-        Write-Verbose "Preparing to close issue #$IssueNumber"
-    }
+    Write-Verbose "Preparing to close issue #$IssueNumber"
 
-    process {
-        $headers = @{
+    $headers = @{
             'Authorization' = "Bearer $Token"
             'Accept'        = 'application/vnd.github.v3+json'
         }
@@ -191,9 +184,8 @@ function Close-GitHubIssue {
             $null = Invoke-RestMethod -Uri $uri -Method Patch -Headers $headers -Body $body -ErrorAction Stop
             Write-Verbose "Issue #$IssueNumber closed"
         }
-        catch {
-            Write-Warning "Failed to close issue #$IssueNumber`: $_"
-        }
+    catch {
+        Write-Warning "Failed to close issue #$IssueNumber`: $_"
     }
 }
 
@@ -205,8 +197,13 @@ Write-Verbose "Text: $InteractionText"
 
 # Load state
 if (-not (Test-Path -Path $script:StateFile)) {
-    Write-Error "State file not found: $script:StateFile"
-    exit 1
+    $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+        [System.IO.FileNotFoundException]::new("State file not found: $script:StateFile"),
+        'StateFileNotFound',
+        [System.Management.Automation.ErrorCategory]::ObjectNotFound,
+        $script:StateFile
+    )
+    $PSCmdlet.ThrowTerminatingError($errorRecord)
 }
 
 $state = Get-Content -Path $script:StateFile -Raw | ConvertFrom-Json

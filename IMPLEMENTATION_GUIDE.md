@@ -292,21 +292,53 @@ Fix:
 
 ### 🧪 Testing Locally
 
-Test scripts locally before pushing:
+You can test the PowerShell scripts locally before pushing to GitHub.
 
-**Test mood update:**
+#### Prerequisites
+
+1. **GitHub Token**: Create a personal access token
+   - GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
+   - Generate new token
+   - Select scopes: `read:user` (for mood updates), `repo` and `workflow` (for interactions)
+   - Copy the token (starts with `ghp_`)
+
+2. **State file**: Ensure `poodle-state.json` exists in your repository
+
+3. **README.md**: Must have the `<!--START_SECTION:poodle-->` and `<!--END_SECTION:poodle-->` markers
+
+#### Test Mood Update Script
+
+**Basic execution with parameters:**
 ```powershell
-# Set environment variables
+.\Update-PoodleMood.ps1 -GitHubToken 'ghp_your_token_here' -GitHubUser 'your_username' -Verbose
+```
+
+**Using environment variables:**
+```powershell
 $env:GITHUB_TOKEN = "ghp_your_token_here"
 $env:GITHUB_REPOSITORY_OWNER = "your_username"
 
-# Run with verbose output
-./Update-PoodleMood.ps1 -Verbose
+.\Update-PoodleMood.ps1 -Verbose
 ```
 
-**Test interaction handler:**
+**Test individual functions:**
 ```powershell
-# Set environment variables
+# Dot-source the script to load functions
+. .\Update-PoodleMood.ps1
+
+# Test contribution fetching
+$contribs = Get-GitHubContributions -Token 'ghp_your_token' -Username 'your_username'
+
+# Test mood calculation
+$stats = Get-ContributionStats -ContributionData $contribs
+$score = Get-MoodScore -ContributionStats $stats -InteractionBonus 10
+Get-MoodState -Score $score
+```
+
+#### Test Interaction Handler Script
+
+**Set environment variables:**
+```powershell
 $env:GITHUB_TOKEN = "ghp_your_token_here"
 $env:ISSUE_NUMBER = "1"
 $env:INTERACTION_TEXT = "!pet"
@@ -315,14 +347,15 @@ $env:INTERACTION_TYPE = "issue_comment"
 $env:GITHUB_REPOSITORY = "your_username/your_username"
 
 # Run with verbose output
-./Handle-PoodleInteraction.ps1 -Verbose
+.\Handle-PoodleInteraction.ps1 -Verbose
 ```
 
-**Create a GitHub token for testing:**
-1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
-2. Generate new token
-3. Select scopes: `repo`, `workflow`
-4. Copy the token (starts with `ghp_`)
+#### What to Expect
+
+- The `-Verbose` flag shows detailed execution information for debugging
+- Mood update will fetch your real GitHub contributions and update the README
+- Interaction handler will process the command and update the state file
+- Check the console output for any errors or warnings
 
 ### 📋 Workflow Logs Location
 
