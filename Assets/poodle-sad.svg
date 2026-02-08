@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Sad Poodle - droopy ears, lying down, tear -->
+  <defs>
+    <radialGradient id="furGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f5f5f5"/>
+      <stop offset="100%" style="stop-color:#d0d0d0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Rain cloud -->
+  <ellipse cx="250" cy="40" rx="30" ry="20" fill="#a0a0a0"/>
+  <ellipse cx="230" cy="35" rx="20" ry="15" fill="#b0b0b0"/>
+  <ellipse cx="270" cy="38" rx="18" ry="12" fill="#b0b0b0"/>
+  <line x1="240" y1="55" x2="238" y2="75" stroke="#6ba3d6" stroke-width="2"/>
+  <line x1="255" y1="55" x2="253" y2="70" stroke="#6ba3d6" stroke-width="2"/>
+  <line x1="265" y1="52" x2="263" y2="68" stroke="#6ba3d6" stroke-width="2"/>
+  
+  <!-- Body (lying down) -->
+  <ellipse cx="150" cy="220" rx="90" ry="45" fill="url(#furGrad)"/>
+  
+  <!-- Fluffy body puffs -->
+  <circle cx="80" cy="210" r="30" fill="url(#furGrad)"/>
+  <circle cx="220" cy="210" r="30" fill="url(#furGrad)"/>
+  <circle cx="100" cy="235" r="25" fill="url(#furGrad)"/>
+  <circle cx="200" cy="235" r="25" fill="url(#furGrad)"/>
+  
+  <!-- Paws (lying flat) -->
+  <ellipse cx="70" cy="255" rx="20" ry="12" fill="url(#furGrad)"/>
+  <ellipse cx="230" cy="255" rx="20" ry="12" fill="url(#furGrad)"/>
+  
+  <!-- Head -->
+  <circle cx="150" cy="130" r="55" fill="url(#furGrad)"/>
+  
+  <!-- Top puff -->
+  <circle cx="130" cy="80" r="22" fill="url(#furGrad)"/>
+  <circle cx="150" cy="75" r="25" fill="url(#furGrad)"/>
+  <circle cx="170" cy="80" r="22" fill="url(#furGrad)"/>
+  
+  <!-- Droopy ears -->
+  <ellipse cx="85" cy="160" rx="18" ry="40" fill="url(#furGrad)" transform="rotate(-10 85 160)"/>
+  <ellipse cx="215" cy="160" rx="18" ry="40" fill="url(#furGrad)" transform="rotate(10 215 160)"/>
+  <circle cx="85" cy="195" r="15" fill="url(#furGrad)"/>
+  <circle cx="215" cy="195" r="15" fill="url(#furGrad)"/>
+  
+  <!-- Sad eyes -->
+  <ellipse cx="130" cy="125" rx="12" ry="10" fill="white"/>
+  <ellipse cx="170" cy="125" rx="12" ry="10" fill="white"/>
+  <circle cx="132" cy="128" r="6" fill="#4a3728"/>
+  <circle cx="172" cy="128" r="6" fill="#4a3728"/>
+  <!-- Sad eyebrows -->
+  <path d="M118 115 Q130 120 142 118" stroke="#4a3728" stroke-width="3" fill="none"/>
+  <path d="M158 118 Q170 120 182 115" stroke="#4a3728" stroke-width="3" fill="none"/>
+  
+  <!-- Tear -->
+  <ellipse cx="145" cy="145" rx="5" ry="8" fill="#6ba3d6"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="150" rx="10" ry="8" fill="#2a1f1a"/>
+  
+  <!-- Sad mouth -->
+  <path d="M135 165 Q150 155 165 165" stroke="#4a3728" stroke-width="3" fill="none"/>
+  
+  <!-- Limp tail -->
+  <path d="M240 200 Q260 210 255 230" stroke="url(#furGrad)" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <circle cx="255" cy="230" r="12" fill="url(#furGrad)"/>
+</svg>

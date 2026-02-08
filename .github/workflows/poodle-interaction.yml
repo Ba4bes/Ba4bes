@@ -1,0 +1,46 @@
+name: Poodle Interaction
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  handle-interaction:
+    # Run for issues with "Poodle" in title, or comments on such issues
+    if: |
+      (github.event_name == 'issues' && contains(github.event.issue.title, 'Poodle')) ||
+      (github.event_name == 'issue_comment' && contains(github.event.issue.title, 'Poodle') && github.event.comment.user.login != 'github-actions[bot]')
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Handle Poodle Interaction
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          # For new issues, use issue body; for comments, use comment body
+          INTERACTION_TEXT: ${{ github.event_name == 'issue_comment' && github.event.comment.body || github.event.issue.body }}
+          # For new issues, use issue author; for comments, use commenter
+          INTERACTION_USER: ${{ github.event_name == 'issue_comment' && github.event.comment.user.login || github.event.issue.user.login }}
+          INTERACTION_TYPE: ${{ github.event_name }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          ./Handle-PoodleInteraction.ps1
+          
+      - name: Commit state changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add poodle-state.json
+          git diff --staged --quiet || git commit -m "🐩 Record poodle interaction #${{ github.event.issue.number }} [skip ci]"
+          git push

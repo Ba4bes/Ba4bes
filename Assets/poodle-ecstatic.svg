@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Ecstatic Poodle - jumping/spinning, hearts and sparkles, maximum joy -->
+  <defs>
+    <radialGradient id="furGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f5f5f5"/>
+      <stop offset="100%" style="stop-color:#d0d0d0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Hearts floating around -->
+  <text x="40" y="50" font-family="Arial" font-size="24" fill="#ff6b9d">♥</text>
+  <text x="250" y="40" font-family="Arial" font-size="20" fill="#ff8fb1">♥</text>
+  <text x="30" y="150" font-family="Arial" font-size="18" fill="#ffaac4">♥</text>
+  <text x="265" y="130" font-family="Arial" font-size="22" fill="#ff6b9d">♥</text>
+  
+  <!-- Sparkles -->
+  <text x="70" y="90" font-family="Arial" font-size="16" fill="#ffdd44">✦</text>
+  <text x="230" y="80" font-family="Arial" font-size="20" fill="#ffdd44">✦</text>
+  <text x="55" y="200" font-family="Arial" font-size="14" fill="#ffee88">✦</text>
+  <text x="250" y="190" font-family="Arial" font-size="18" fill="#ffdd44">✦</text>
+  
+  <!-- Body (jumping - tilted up) -->
+  <ellipse cx="150" cy="170" rx="55" ry="42" fill="url(#furGrad)" transform="rotate(-10 150 170)"/>
+  
+  <!-- Fluffy body puffs -->
+  <circle cx="100" cy="155" r="24" fill="url(#furGrad)"/>
+  <circle cx="200" cy="165" r="24" fill="url(#furGrad)"/>
+  
+  <!-- Legs (all up - jumping!) -->
+  <rect x="90" y="190" width="16" height="45" rx="7" fill="url(#furGrad)" transform="rotate(-25 90 190)"/>
+  <rect x="120" y="195" width="16" height="40" rx="7" fill="url(#furGrad)" transform="rotate(-15 120 195)"/>
+  <rect x="165" y="195" width="16" height="40" rx="7" fill="url(#furGrad)" transform="rotate(15 165 195)"/>
+  <rect x="190" y="190" width="16" height="45" rx="7" fill="url(#furGrad)" transform="rotate(25 190 190)"/>
+  
+  <!-- Paw puffs -->
+  <circle cx="68" cy="230" r="12" fill="url(#furGrad)"/>
+  <circle cx="105" cy="235" r="12" fill="url(#furGrad)"/>
+  <circle cx="185" cy="235" r="12" fill="url(#furGrad)"/>
+  <circle cx="222" cy="230" r="12" fill="url(#furGrad)"/>
+  
+  <!-- Head (super happy, tilted) -->
+  <circle cx="150" cy="90" r="50" fill="url(#furGrad)" transform="rotate(8 150 90)"/>
+  
+  <!-- Extra fluffy top puff (excited!) -->
+  <circle cx="125" cy="45" r="18" fill="url(#furGrad)"/>
+  <circle cx="145" cy="38" r="22" fill="url(#furGrad)"/>
+  <circle cx="165" cy="40" r="20" fill="url(#furGrad)"/>
+  <circle cx="180" cy="48" r="15" fill="url(#furGrad)"/>
+  
+  <!-- Super perky ears -->
+  <ellipse cx="88" cy="72" rx="15" ry="26" fill="url(#furGrad)" transform="rotate(-20 88 72)"/>
+  <ellipse cx="215" cy="75" rx="15" ry="26" fill="url(#furGrad)" transform="rotate(20 215 75)"/>
+  <circle cx="82" cy="95" r="13" fill="url(#furGrad)"/>
+  <circle cx="220" cy="98" r="13" fill="url(#furGrad)"/>
+  
+  <!-- Super happy eyes (big curves) -->
+  <path d="M118 82 Q132 72 145 82" stroke="#4a3728" stroke-width="5" fill="none"/>
+  <path d="M155 82 Q168 72 182 82" stroke="#4a3728" stroke-width="5" fill="none"/>
+  
+  <!-- Rosy cheeks -->
+  <circle cx="115" cy="95" r="8" fill="#ffb4b4" opacity="0.6"/>
+  <circle cx="185" cy="95" r="8" fill="#ffb4b4" opacity="0.6"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="105" rx="9" ry="7" fill="#2a1f1a"/>
+  
+  <!-- Huge happy open mouth with tongue -->
+  <ellipse cx="150" cy="128" rx="25" ry="18" fill="#c97878"/>
+  <path d="M125 118 Q150 145 175 118" fill="#c97878"/>
+  <ellipse cx="150" cy="142" rx="15" ry="22" fill="#ff8888"/>
+  
+  <!-- Super wagging tail with lots of motion -->
+  <path d="M210 150 Q255 100 270 60" stroke="url(#furGrad)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <circle cx="270" cy="58" r="13" fill="url(#furGrad)"/>
+  
+  <!-- Multiple motion lines for crazy tail wag -->
+  <path d="M275 45 Q290 60 280 75" stroke="#888" stroke-width="2" fill="none"/>
+  <path d="M280 35 Q298 55 285 75" stroke="#aaa" stroke-width="1.5" fill="none"/>
+  <path d="M260 50 Q250 65 255 80" stroke="#888" stroke-width="2" fill="none"/>
+  
+  <!-- Jump motion lines under paws -->
+  <line x1="60" y1="260" x2="85" y2="260" stroke="#ccc" stroke-width="2"/>
+  <line x1="100" y1="265" x2="120" y2="265" stroke="#ddd" stroke-width="1.5"/>
+  <line x1="175" y1="265" x2="195" y2="265" stroke="#ddd" stroke-width="1.5"/>
+  <line x1="210" y1="260" x2="235" y2="260" stroke="#ccc" stroke-width="2"/>
+</svg>

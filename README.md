@@ -28,7 +28,48 @@ Things you will find here:
 - ⚡ Fun fact: I have a standard poodle 🐩
 
 -->
+<!--START_SECTION:poodle-->
+<div align="center">
 
+## 🐩 Mood Poodle 🐩
+
+<img src="Assets/poodle-content.svg" alt="content poodle" width="200">
+
+### 🙂 **CONTENT** 🙂
+**Mood Score:** 50/100
+
+*Waiting for first contribution*
+
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | Never |
+| Contributions (7 days) | 0 |
+| Contributions (30 days) | 0 |
+| Repositories | 0 |
+
+🐾 **Interaction Stats**
+| Type | Count |
+|------|-------|
+| Pets received | 0 |
+| Treats received | 0 |
+
+**Recent visitors:** No one yet!
+
+---
+
+### Want to make the poodle happier?
+
+Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+- `!pet` - Give the poodle some pets 🐾
+- `!feed` - Give the poodle a treat 🍖
+
+<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
+
+</div>
+<!--END_SECTION:poodle-->
 ## ⭐Random Blog post⭐
 
 (this post gets updated every day by GitHub Actions! )
