@@ -1,40 +1,65 @@
 ![Github Star](Assets/github-stars-logo_Color.png)
 
-## Hi there 👋
+<div align="center">
+<!--START_SECTION:poodle-->
+## 🐩 Mood Poodle 🐩
 
-Things you will find here:
-- ⛅ Azure
-- 🚗 Automation
-- 🐚 PowerShell
-- 💪 Bicep
-- ⚡ Azure Functions
-- 🚀 Azure DevOps
+<img src="Assets/poodle-content.png" alt="content poodle" width="200">
+
+### 🙂 **CONTENT** 🙂
+**Mood Score:** 50/100
+
+*Waiting for first contribution*
+
+---
+
+� **Interaction Stats**
+| Type | Count |
+|------|-------|
+| Pets received | 0 |
+| Treats received | 0 |
+
+**Recent visitors:** No one yet!
+
+---
+
+### Want to make the poodle happier?
+
+Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+- `!pet` - Give the poodle some pets 🐾
+- `!feed` - Give the poodle a treat 🍖
+
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | Never |
+| Contributions (7 days) | 0 |
+| Contributions (30 days) | 0 |
+| Repositories | 0 |
 
 
-## 📝 my blog
-<https://4bes.nl>
 
-## Reach me on Twitter
-🐦[@Ba4bes](https://twitter.com/Ba4bes)
+</div>
+<!--END_SECTION:poodle-->
 
-<!---
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: I have a standard poodle 🐩
+---
 
--->
+## 🤖 About This Project
 
-## ⭐Random Blog post⭐
+This repository was created with the assistance of AI models to demonstrate automated GitHub profile interactions with a virtual poodle.
 
-(this post gets updated every day by GitHub Actions! )
+### AI Models Used
+- **GitHub Copilot** - Using GPT-5, Claude Opus 4.6 and Claude Sonnet 4.5 
 
-<!-- Link -->
-## [Prepare for Microsoft Ignite 2020](https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/)
+Key prompts can be found in the prompts folder
 
-<a href="https://4bes.nl/2020/09/16/prepare-for-microsoft-ignite-2020/"><img src="https://4bes.nl/wp-content/uploads/2020/09/prepareforMSIgnitetn.png" height="250px"></a>
 
+## Socials
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/baforbes/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ba4bes)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ba4bes/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@@ba4bes)
+[![Website](https://img.shields.io/badge/Website-ba4bes.com-blue?style=for-the-badge)](https://ba4bes.com)

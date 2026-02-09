@@ -1,0 +1,32 @@
+{
+  "mood": {
+    "score": 70,
+    "state": "happy",
+    "lastCalculated": "2026-02-07T12:00:00Z"
+  },
+  "decay": {
+    "interactionBonus": 15,
+    "lastDecayApplied": "2026-02-07T12:00:00Z"
+  },
+  "interactions": {
+    "totalPets": 10,
+    "totalFeeds": 5,
+    "log": []
+  },
+  "contributions": {
+    "lastContributionDate": "2026-02-07",
+    "count7Days": 10,
+    "count30Days": 40,
+    "repoCount": 20,
+    "lastFetched": "2026-02-07T12:00:00Z"
+  },
+  "rateLimits": {
+    "spamuser": [
+      "2026-02-08T01:00:00+00:00",
+      "2026-02-08T02:00:00+00:00",
+      "2026-02-08T03:00:00+00:00",
+      "2026-02-08T04:00:00+00:00",
+      "2026-02-08T05:00:00+00:00"
+    ]
+  }
+}

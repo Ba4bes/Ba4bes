@@ -1,0 +1,24 @@
+{
+  "mood": {
+    "score": 50,
+    "state": "content",
+    "lastCalculated": "2026-02-03T00:00:00Z"
+  },
+  "decay": {
+    "interactionBonus": 0,
+    "lastDecayApplied": "2026-02-03T00:00:00Z"
+  },
+  "interactions": {
+    "totalPets": 0,
+    "totalFeeds": 0,
+    "log": []
+  },
+  "contributions": {
+    "lastContributionDate": null,
+    "count7Days": 0,
+    "count30Days": 0,
+    "repoCount": 0,
+    "lastFetched": null
+  },
+  "rateLimits": {}
+}
