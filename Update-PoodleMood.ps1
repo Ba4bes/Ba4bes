@@ -485,23 +485,23 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
         Write-Verbose "README.md successfully updated with poodle mood: $MoodState ($MoodScore/100)"
     }
     catch {
-            $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                $_.Exception,
-                'ReadmeUpdateFailed',
-                [System.Management.Automation.ErrorCategory]::WriteError,
-                $ReadmeFile
-            )
-            $PSCmdlet.ThrowTerminatingError($errorRecord)
-        }
+        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+            $_.Exception,
+            'ReadmeUpdateFailed',
+            [System.Management.Automation.ErrorCategory]::WriteError,
+            $ReadmeFile
+        )
+        $PSCmdlet.ThrowTerminatingError($errorRecord)
+    }
 }
 
 # Main execution
-begin {
-    Write-Verbose '🐩 Starting Poodle Mood Update Process...'
-    $ErrorActionPreference = 'Stop'
 
-    # Load state
-    try {
+Write-Verbose '🐩 Starting Poodle Mood Update Process...'
+$ErrorActionPreference = 'Stop'
+
+# Load state
+try {
     if (-not (Test-Path -Path $StateFile)) {
         $errorRecord = [System.Management.Automation.ErrorRecord]::new(
             [System.IO.FileNotFoundException]::new("State file not found: $StateFile"),
@@ -553,13 +553,13 @@ begin {
     
     Write-Verbose '✅ Poodle mood update complete!'
 }
-    catch {
-        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-            $_.Exception,
-            'PoodleMoodUpdateFailed',
-            [System.Management.Automation.ErrorCategory]::NotSpecified,
-            $null
-        )
-        $PSCmdlet.ThrowTerminatingError($errorRecord)
-    }
+catch {
+    $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+        $_.Exception,
+        'PoodleMoodUpdateFailed',
+        [System.Management.Automation.ErrorCategory]::NotSpecified,
+        $null
+    )
+    $PSCmdlet.ThrowTerminatingError($errorRecord)
 }
+
