@@ -14,19 +14,19 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400">
 
 ### 🎉 **ECSTATIC** 🎉
-**Mood Score:** 95/100
+**Mood Score:** 96/100
 
-*Contributed today!*
+*Contributed today! • Appreciates the attention*
 
 ---
 
 � **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 0 |
+| Pets received | 1 |
 | Treats received | 0 |
 
-**Recent visitors:** No one yet!
+**Recent visitors:** @Ba4bes
 
 ---
 
