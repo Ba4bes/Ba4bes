@@ -36,11 +36,19 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           ./Handle-PoodleInteraction.ps1
+
+      - name: Update Poodle Mood & README
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: |
+          ./Update-PoodleMood.ps1
           
       - name: Commit state changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add poodle-state.json
+          git add poodle-state.json README.md
           git diff --staged --quiet || git commit -m "🐩 Record poodle interaction #${{ github.event.issue.number }} [skip ci]"
           git push

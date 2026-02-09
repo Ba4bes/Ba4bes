@@ -340,7 +340,7 @@ $emoji **Thank you for the $actionWord, @$InteractionUser!** $emoji
 - Interaction bonus: +$($script:BonusPerInteraction) points
 - Remaining interactions today: $remainingAfterThis/$($script:MaxInteractionsPerDay)
 
-The poodle's mood will update at the next scheduled refresh (every 6 hours).
+The poodle's mood will update in the README momentarily!
 
 ---
 *Total pets received: $($state.interactions.totalPets) | Total treats received: $($state.interactions.totalFeeds)*

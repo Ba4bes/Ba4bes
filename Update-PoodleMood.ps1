@@ -48,7 +48,7 @@ param(
 # Configuration
 $StateFile = "./poodle-state.json"
 $ReadmeFile = "./README.md"
-$DecayPerCycle = 1  # Interaction bonus decay per 6-hour cycle
+$DecayPerCycle = 2  # Interaction bonus decay per 6-hour cycle
 
 # Mood thresholds and images
 $MoodConfig = @{
@@ -430,7 +430,7 @@ function Update-ReadmePoodle {
 
 ## 🐩 Mood Poodle 🐩
 
-This is my virtual pet poodle! Its mood changes based on my GitHub activity and your interactions.
+This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
 <img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
@@ -468,7 +468,7 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 | Contributions (30 days) | $($ContributionStats.count30Days) |
 | Repositories | $($ContributionStats.repoCount) |
 
-<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
+<sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
 
 </div>
 <!--END_SECTION:poodle-->
