@@ -214,7 +214,7 @@ if (-not $state.rateLimits) {
 }
 
 # Determine interaction type from the interaction text
-$textToCheck = $InteractionText.ToLower()
+$textToCheck = ($InteractionText ?? '').ToLower()
 $interactionAction = $null
 
 if ($textToCheck -match '!pet|pet the poodle|poodle pet') {

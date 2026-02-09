@@ -166,7 +166,7 @@ function Get-ContributionStats {
         }
     }
     
-    $today = Get-Date
+    $today = (Get-Date).Date
     $allDays = $ContributionData.contributionsCollection.contributionCalendar.weeks | 
     ForEach-Object { $_.contributionDays } | 
     Where-Object { $_.contributionCount -gt 0 }
@@ -174,11 +174,11 @@ function Get-ContributionStats {
     $lastContribution = $allDays | Sort-Object date -Descending | Select-Object -First 1
     
     $last7Days = $allDays | Where-Object { 
-        ([datetime]$_.date) -ge $today.AddDays(-7) 
+        ([datetime]$_.date).Date -ge $today.AddDays(-6) 
     } | Measure-Object -Property contributionCount -Sum
     
     $last30Days = $allDays | Where-Object { 
-        ([datetime]$_.date) -ge $today.AddDays(-30) 
+        ([datetime]$_.date).Date -ge $today.AddDays(-29) 
     } | Measure-Object -Property contributionCount -Sum
     
     $stats = @{

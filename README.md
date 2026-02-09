@@ -13,7 +13,7 @@
 
 ---
 
-� **Interaction Stats**
+🐾 **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | 0 |

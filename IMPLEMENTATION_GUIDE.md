@@ -21,6 +21,8 @@ Add this section to your `README.md` where you want the poodle to appear:
 ```markdown
 ## 🐩 Mood Poodle 🐩
 
+<!--START_SECTION:poodle-->
+
 <div align="center">
 
 <img src="Assets/poodle-content.png" alt="content poodle" width="200">
@@ -59,10 +61,12 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 | Repositories | 0 |
 
 </div>
+
 <!--END_SECTION:poodle-->
 ```
 
-⚠️ **Critical:** The `<!--END_SECTION:poodle-->` comment is required! The script uses this marker to know where to update content.
+⚠️ **Critical:** Both `<!--START_SECTION:poodle-->` and `<!--END_SECTION:poodle-->` markers are required! The script uses these markers to know where to update content. Everything between them will be replaced.
+
 
 ### Step 3: Create the Poodle Interaction Issue
 
