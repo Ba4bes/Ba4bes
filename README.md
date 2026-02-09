@@ -1,4 +1,6 @@
-![Github Star](Assets/github-stars-logo_Color.png)
+<div align="right">
+<img src="Assets/github-stars-logo_Color.png" alt="Github Star" width="150">
+</div>
 
 <div align="center">
 <!--START_SECTION:poodle-->

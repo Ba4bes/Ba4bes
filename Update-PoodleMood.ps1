@@ -430,7 +430,10 @@ function Update-ReadmePoodle {
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="$($moodInfo.image)" alt="$MoodState poodle" width="200">
+This is my virtual pet poodle! Its mood changes based on my GitHub activity and your interactions.
+The more I contribute and the more you pet or feed it, the happier it gets!
+
+<img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
 
 ### $($moodInfo.emoji) **$($MoodState.ToUpper())** $($moodInfo.emoji)
 **Mood Score:** $MoodScore/100
@@ -439,15 +442,7 @@ function Update-ReadmePoodle {
 
 ---
 
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | $lastContrib |
-| Contributions (7 days) | $($ContributionStats.count7Days) |
-| Contributions (30 days) | $($ContributionStats.count30Days) |
-| Repositories | $($ContributionStats.repoCount) |
-
-🐾 **Interaction Stats**
+� **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | $($Interactions.totalPets) |
@@ -462,6 +457,16 @@ function Update-ReadmePoodle {
 Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
 - ``!pet`` - Give the poodle some pets 🐾
 - ``!feed`` - Give the poodle a treat 🍖
+
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | $lastContrib |
+| Contributions (7 days) | $($ContributionStats.count7Days) |
+| Contributions (30 days) | $($ContributionStats.count30Days) |
+| Repositories | $($ContributionStats.repoCount) |
 
 <sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
 

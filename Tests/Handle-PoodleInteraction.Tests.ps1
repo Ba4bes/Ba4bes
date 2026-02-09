@@ -316,9 +316,11 @@ Describe 'Handle-PoodleInteraction.ps1 - Unit Tests' {
 
         It 'Should show correct remaining interactions count' {
             $state = $script:EmptyStateJson | ConvertFrom-Json
+            $recentTimestamp1 = (Get-Date).ToUniversalTime().AddHours(-2).ToString('o')
+            $recentTimestamp2 = (Get-Date).ToUniversalTime().AddHours(-1).ToString('o')
             $state.rateLimits | Add-Member -NotePropertyName 'partialuser' -NotePropertyValue @(
-                '2026-02-08T10:00:00Z',
-                '2026-02-08T11:00:00Z'
+                $recentTimestamp1,
+                $recentTimestamp2
             ) -Force
             $partialStateJson = $state | ConvertTo-Json -Depth 10
 
