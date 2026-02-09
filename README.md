@@ -1,7 +1,7 @@
 ![Github Star](Assets/github-stars-logo_Color.png)
 
 <div align="center">
-
+<!--START_SECTION:poodle-->
 ## 🐩 Mood Poodle 🐩
 
 <img src="Assets/poodle-content.png" alt="content poodle" width="200">
