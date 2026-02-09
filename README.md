@@ -2,18 +2,28 @@
 
 <div align="center">
 <!--START_SECTION:poodle-->
+<div align="center">
+
 ## 🐩 Mood Poodle 🐩
 
-<img src="Assets/poodle-content.png" alt="content poodle" width="200">
+<img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="200">
 
-### 🙂 **CONTENT** 🙂
-**Mood Score:** 50/100
+### 🎉 **ECSTATIC** 🎉
+**Mood Score:** 95/100
 
-*Waiting for first contribution*
+*Contributed today!*
 
 ---
 
-� **Interaction Stats**
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | 2026-02-09 |
+| Contributions (7 days) | 24 |
+| Contributions (30 days) | 132 |
+| Repositories | 64 |
+
+🐾 **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | 0 |
@@ -29,17 +39,7 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 - `!pet` - Give the poodle some pets 🐾
 - `!feed` - Give the poodle a treat 🍖
 
----
-
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | Never |
-| Contributions (7 days) | 0 |
-| Contributions (30 days) | 0 |
-| Repositories | 0 |
-
-
+<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
 
 </div>
 <!--END_SECTION:poodle-->
