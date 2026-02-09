@@ -8,7 +8,10 @@
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="200">
+This is my virtual pet poodle! Its mood changes based on my GitHub activity and your interactions.
+The more I contribute and the more you pet or feed it, the happier it gets!
+
+<img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400">
 
 ### 🎉 **ECSTATIC** 🎉
 **Mood Score:** 95/100
@@ -17,15 +20,7 @@
 
 ---
 
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | 2026-02-09 |
-| Contributions (7 days) | 24 |
-| Contributions (30 days) | 132 |
-| Repositories | 64 |
-
-🐾 **Interaction Stats**
+� **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | 0 |
@@ -40,6 +35,16 @@
 Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
 - `!pet` - Give the poodle some pets 🐾
 - `!feed` - Give the poodle a treat 🍖
+
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | 2026-02-09 |
+| Contributions (7 days) | 25 |
+| Contributions (30 days) | 133 |
+| Repositories | 64 |
 
 <sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
 
