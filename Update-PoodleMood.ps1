@@ -48,7 +48,7 @@ param(
 # Configuration
 $StateFile = "./poodle-state.json"
 $ReadmeFile = "./README.md"
-$DecayPerCycle = 2  # Interaction bonus decay per 6-hour cycle
+$DecayPerCycle = 1  # Interaction bonus decay per 6-hour cycle
 
 # Mood thresholds and images
 $MoodConfig = @{
@@ -239,12 +239,12 @@ function Get-MoodScore {
         $score -= 30  # No contributions found
     }
     
-    # Contribution count bonuses
-    $score += [Math]::Min($ContributionStats.count7Days * 2, 20)   # Up to +20 for weekly activity
-    $score += [Math]::Min($ContributionStats.count30Days / 5, 15) # Up to +15 for monthly activity
+    # Contribution count bonuses - reduced to cap max at 75
+    $score += [Math]::Min($ContributionStats.count7Days * 1, 15)   # Up to +15 for weekly activity
+    $score += [Math]::Min($ContributionStats.count30Days / 10, 7) # Up to +7 for monthly activity
     
-    # Repo count bonus (up to +10)
-    $score += [Math]::Min($ContributionStats.repoCount / 5, 10)
+    # Repo count bonus (up to +3)
+    $score += [Math]::Min($ContributionStats.repoCount / 20, 3)
     
     # Add interaction bonus
     $score += $InteractionBonus
@@ -422,7 +422,7 @@ function Update-ReadmePoodle {
     Sort-Object timestamp -Descending | 
     Select-Object -ExpandProperty username -Unique | 
     Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "@$_" }) -join ", " } else { "No one yet!" }
+    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
     
     $poodleSection = @"
 <!--START_SECTION:poodle-->
@@ -454,7 +454,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 
 ### Want to make the poodle happier?
 
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
 - ``!pet`` - Give the poodle some pets 🐾
 - ``!feed`` - Give the poodle a treat 🍖
 
