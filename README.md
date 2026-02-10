@@ -11,12 +11,12 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400">
+<img src="Assets/poodle-happy.png" alt="happy poodle" width="400">
 
-### 🎉 **ECSTATIC** 🎉
-**Mood Score:** 96/100
+### 😊 **HAPPY** 😊
+**Mood Score:** 70/100
 
-*Contributed today! • Appreciates the attention*
+*Contributed yesterday*
 
 ---
 
@@ -26,13 +26,13 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 | Pets received | 1 |
 | Treats received | 0 |
 
-**Recent visitors:** @Ba4bes
+**Recent visitors:** [@Ba4bes](https://github.com/Ba4bes)
 
 ---
 
 ### Want to make the poodle happier?
 
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
 - `!pet` - Give the poodle some pets 🐾
 - `!feed` - Give the poodle a treat 🍖
 
@@ -42,8 +42,8 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 | Metric | Value |
 |--------|-------|
 | Last Contribution | 2026-02-09 |
-| Contributions (7 days) | 27 |
-| Contributions (30 days) | 135 |
+| Contributions (7 days) | 28 |
+| Contributions (30 days) | 137 |
 | Repositories | 64 |
 
 <sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
