@@ -113,7 +113,7 @@ function Update-ReadmePoodleEcstatic {
         Sort-Object timestamp -Descending | 
         Select-Object -ExpandProperty username -Unique | 
         Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "@$_" }) -join ", " } else { "No one yet!" }
+    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
 
     $poodleSection = @"
 <!--START_SECTION:poodle-->
@@ -121,12 +121,12 @@ function Update-ReadmePoodleEcstatic {
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="$($moodInfo.image)" alt="ecstatic poodle" width="200">
+<img src="$($moodInfo.image)" alt="ecstatic poodle" width="400">
 
 ### $($moodInfo.emoji) **ECSTATIC** $($moodInfo.emoji)
 **Mood Score:** 100/100
 
-*Just received love from @$InteractingUser! 🎉*
+*Just received love from [@$InteractingUser](https://github.com/$InteractingUser)! 🎉*
 
 ---
 
