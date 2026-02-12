@@ -14,9 +14,9 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400"></a>
 
 ### 🎉 **ECSTATIC** 🎉
-**Mood Score:** 100/100
+**Mood Score:** 86/100
 
-*Just received love from [@Ba4bes](https://github.com/Ba4bes)! 🎉*
+*Feeling extra loved from all the attention! (+10 bonus)*
 
 ---
 
