@@ -20,5 +20,11 @@
     "repoCount": 0,
     "lastFetched": null
   },
-  "rateLimits": {}
+  "rateLimits": {},
+  "cooldown": {
+    "active": false,
+    "preInteractionScore": null,
+    "stackedBonus": 0,
+    "triggeredAt": null
+  }
 }

@@ -28,5 +28,11 @@
       "2026-02-08T04:00:00+00:00",
       "2026-02-08T05:00:00+00:00"
     ]
+  },
+  "cooldown": {
+    "active": false,
+    "preInteractionScore": null,
+    "stackedBonus": 0,
+    "triggeredAt": null
   }
 }

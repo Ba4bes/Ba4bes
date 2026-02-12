@@ -9,6 +9,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write
 
 jobs:
   handle-interaction:
@@ -17,12 +18,15 @@ jobs:
       (github.event_name == 'issues' && contains(github.event.issue.title, 'Poodle')) ||
       (github.event_name == 'issue_comment' && contains(github.event.issue.title, 'Poodle') && github.event.comment.user.login != 'github-actions[bot]')
     runs-on: ubuntu-latest
+    outputs:
+      trigger_cooldown: ${{ steps.interaction.outputs.trigger_cooldown }}
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         
       - name: Handle Poodle Interaction
+        id: interaction
         shell: pwsh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -35,12 +39,27 @@ jobs:
           INTERACTION_TYPE: ${{ github.event_name }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          ./Handle-PoodleInteraction.ps1
+          $output = ./Handle-PoodleInteraction.ps1
+          if ($output -match 'TRIGGER_COOLDOWN=true') {
+            "trigger_cooldown=true" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          }
           
       - name: Commit state changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add poodle-state.json
-          git diff --staged --quiet || git commit -m "🐩 Record poodle interaction #${{ github.event.issue.number }} [skip ci]"
+          git add poodle-state.json README.md
+          git diff --staged --quiet || git commit -m "🐩 Record poodle interaction #${{ github.event.issue.number }} - Now ecstatic! [skip ci]"
           git push
+
+  trigger-cooldown:
+    needs: handle-interaction
+    if: needs.handle-interaction.outputs.trigger_cooldown == 'true'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger cooldown workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run poodle-cooldown.yml --repo ${{ github.repository }}

@@ -1,0 +1,41 @@
+{
+  "mood": {
+    "score": 100,
+    "state": "ecstatic",
+    "lastCalculated": "2026-02-08T10:00:00Z"
+  },
+  "decay": {
+    "interactionBonus": 3,
+    "lastDecayApplied": "2026-02-08T06:00:00Z"
+  },
+  "interactions": {
+    "totalPets": 6,
+    "totalFeeds": 3,
+    "log": [
+      {
+        "username": "testuser1",
+        "type": "pet",
+        "timestamp": "2026-02-08T10:00:00Z",
+        "issueNum": 42
+      }
+    ]
+  },
+  "contributions": {
+    "lastContributionDate": "2026-02-08",
+    "count7Days": 12,
+    "count30Days": 45,
+    "repoCount": 25,
+    "lastFetched": "2026-02-08T06:00:00Z"
+  },
+  "rateLimits": {
+    "testuser1": [
+      "2026-02-08T10:00:00Z"
+    ]
+  },
+  "cooldown": {
+    "active": true,
+    "preInteractionScore": 65,
+    "stackedBonus": 5,
+    "triggeredAt": "2026-02-08T10:00:00Z"
+  }
+}

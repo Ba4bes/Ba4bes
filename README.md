@@ -4,7 +4,7 @@
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="Assets/poodle-content.png" alt="content poodle" width="200">
+[![content poodle](Assets/poodle-content.png)](https://github.com/Ba4bes/Ba4bes/issues/2)
 
 ### 🙂 **CONTENT** 🙂
 **Mood Score:** 50/100

@@ -698,3 +698,94 @@ Describe 'Update-PoodleMood.ps1 - Contract Tests' {
         }
     }
 }
+
+Describe 'Update-PoodleMood.ps1 - Cooldown Tests' {
+
+    BeforeAll {
+        $script:CooldownActiveStateJson = Get-Content (Join-Path $script:FixturePath 'poodle-state-cooldown-active.json') -Raw
+    }
+
+    Describe 'Cooldown Skip Behavior' {
+
+        It 'Should skip mood calculation when cooldown is active' {
+            $tempDir = New-TempWorkspace
+            $stateFile = Join-Path $tempDir 'poodle-state.json'
+            $readmeFile = Join-Path $tempDir 'README.md'
+
+            Set-Content -Path $stateFile -Value $script:CooldownActiveStateJson
+            Set-Content -Path $readmeFile -Value $script:ReadmeWithPoodle
+
+            $originalLocation = Get-Location
+            Set-Location $tempDir
+
+            $graphqlResponse = $script:GraphqlResponseJson | ConvertFrom-Json
+            Mock Invoke-RestMethod { return $graphqlResponse }
+            Mock Get-Date { return [datetime]'2026-02-08T12:00:00Z' }
+
+            & $script:ScriptPath -GitHubToken 'fake-token' -GitHubUser 'testuser'
+
+            $result = Get-Content $stateFile -Raw | ConvertFrom-Json
+            # Mood should remain ecstatic (100) since cooldown is active
+            $result.mood.score | Should -Be 100
+            $result.mood.state | Should -Be 'ecstatic'
+            # Cooldown should still be active
+            $result.cooldown.active | Should -Be $true
+
+            Set-Location $originalLocation
+            Remove-Item $tempDir -Recurse -Force
+        }
+
+        It 'Should still apply decay to interaction bonus during cooldown' {
+            $tempDir = New-TempWorkspace
+            $stateFile = Join-Path $tempDir 'poodle-state.json'
+            $readmeFile = Join-Path $tempDir 'README.md'
+
+            Set-Content -Path $stateFile -Value $script:CooldownActiveStateJson
+            Set-Content -Path $readmeFile -Value $script:ReadmeWithPoodle
+
+            $originalLocation = Get-Location
+            Set-Location $tempDir
+
+            $graphqlResponse = $script:GraphqlResponseJson | ConvertFrom-Json
+            Mock Invoke-RestMethod { return $graphqlResponse }
+            Mock Get-Date { return [datetime]'2026-02-08T12:00:00Z' }
+
+            $stateBefore = $script:CooldownActiveStateJson | ConvertFrom-Json
+            $bonusBefore = $stateBefore.decay.interactionBonus
+
+            & $script:ScriptPath -GitHubToken 'fake-token' -GitHubUser 'testuser'
+
+            $result = Get-Content $stateFile -Raw | ConvertFrom-Json
+            # Decay should be applied (bonus reduced by 1)
+            $result.decay.interactionBonus | Should -Be ($bonusBefore - 1)
+
+            Set-Location $originalLocation
+            Remove-Item $tempDir -Recurse -Force
+        }
+
+        It 'Should proceed normally when cooldown is not active' {
+            $tempDir = New-TempWorkspace
+            $stateFile = Join-Path $tempDir 'poodle-state.json'
+            $readmeFile = Join-Path $tempDir 'README.md'
+
+            Set-Content -Path $stateFile -Value $script:SeededStateJson
+            Set-Content -Path $readmeFile -Value $script:ReadmeWithPoodle
+
+            $originalLocation = Get-Location
+            Set-Location $tempDir
+
+            $graphqlResponse = $script:GraphqlResponseJson | ConvertFrom-Json
+            Mock Invoke-RestMethod { return $graphqlResponse }
+            Mock Get-Date { return [datetime]'2026-02-08T12:00:00Z' }
+
+            & $script:ScriptPath -GitHubToken 'fake-token' -GitHubUser 'testuser'
+
+            $result = Get-Content $stateFile -Raw | ConvertFrom-Json
+            # Mood should be updated (not necessarily 65 anymore)
+            $result.mood.lastCalculated | Should -Not -BeNullOrEmpty
+
+            Set-Location $originalLocation
+            Remove-Item $tempDir -Recurse -Force
+        }
+    }
+}

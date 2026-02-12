@@ -496,12 +496,11 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 }
 
 # Main execution
-begin {
-    Write-Verbose '🐩 Starting Poodle Mood Update Process...'
-    $ErrorActionPreference = 'Stop'
+Write-Verbose '🐩 Starting Poodle Mood Update Process...'
+$ErrorActionPreference = 'Stop'
 
-    # Load state
-    try {
+# Load state
+try {
     if (-not (Test-Path -Path $StateFile)) {
         $errorRecord = [System.Management.Automation.ErrorRecord]::new(
             [System.IO.FileNotFoundException]::new("State file not found: $StateFile"),
@@ -515,10 +514,25 @@ begin {
     $state = Get-Content $StateFile -Raw -ErrorAction Stop | ConvertFrom-Json
     Write-Verbose "State loaded from $StateFile"
 
+    # Check if cooldown is active - skip mood calculation to preserve ecstatic state
+    if ($state.cooldown -and $state.cooldown.active) {
+        Write-Verbose "Cooldown is active - skipping mood update to preserve ecstatic state"
+        Write-Verbose "Cooldown will be resolved by the poodle-cooldown workflow"
+        # Still apply decay to interaction bonus
+        $currentBonus = [int]$state.decay.interactionBonus
+        $newBonus = [Math]::Max(0, $currentBonus - $DecayPerCycle)
+        $state.decay.interactionBonus = $newBonus
+        $state.decay.lastDecayApplied = (Get-Date).ToUniversalTime().ToString("o")
+        $state | ConvertTo-Json -Depth 10 | Set-Content $StateFile -ErrorAction Stop
+        Write-Verbose "Decay applied, but mood preserved. Exiting gracefully."
+        exit 0
+    }
+
     # Apply decay to interaction bonus
     $currentBonus = [int]$state.decay.interactionBonus
     $newBonus = [Math]::Max(0, $currentBonus - $DecayPerCycle)
     Write-Verbose "Interaction bonus: $currentBonus -> $newBonus (decay: -$DecayPerCycle)"
+    
     # Fetch contribution data
     Write-Verbose "Fetching GitHub contributions for $GitHubUser..."
     $contributionData = Get-GitHubContributions -Token $GitHubToken -Username $GitHubUser
@@ -553,13 +567,12 @@ begin {
     
     Write-Verbose '✅ Poodle mood update complete!'
 }
-    catch {
-        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-            $_.Exception,
-            'PoodleMoodUpdateFailed',
-            [System.Management.Automation.ErrorCategory]::NotSpecified,
-            $null
-        )
-        $PSCmdlet.ThrowTerminatingError($errorRecord)
-    }
+catch {
+    $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+        $_.Exception,
+        'PoodleMoodUpdateFailed',
+        [System.Management.Automation.ErrorCategory]::NotSpecified,
+        $null
+    )
+    $PSCmdlet.ThrowTerminatingError($errorRecord)
 }

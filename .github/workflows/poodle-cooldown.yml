@@ -1,0 +1,48 @@
+name: Poodle Cooldown
+
+on:
+  workflow_dispatch:
+    # Triggered by poodle-interaction workflow after pet/feed
+
+permissions:
+  contents: write
+
+jobs:
+  wait-for-cooldown:
+    runs-on: ubuntu-latest
+    environment: poodle-cooldown  # This environment has a 10-minute wait timer configured
+    
+    steps:
+      - name: Log cooldown start
+        run: echo "Cooldown period started - waiting for environment timer..."
+
+  restore-mood:
+    needs: wait-for-cooldown
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Fetch latest to ensure we have current state
+          fetch-depth: 1
+          
+      - name: Pull latest changes
+        run: |
+          git pull origin ${{ github.ref_name }}
+          
+      - name: Restore poodle mood after cooldown
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: |
+          ./Restore-PoodleMood.ps1
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md poodle-state.json
+          git diff --staged --quiet || git commit -m "🐩 Poodle mood restored after cooldown [skip ci]"
+          git push

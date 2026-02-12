@@ -47,5 +47,11 @@
     "testuser2": [
       "2026-02-07T11:00:00Z"
     ]
+  },
+  "cooldown": {
+    "active": false,
+    "preInteractionScore": null,
+    "stackedBonus": 0,
+    "triggeredAt": null
   }
 }

@@ -21,12 +21,14 @@ BeforeAll {
     $script:EmptyStateJson = Get-Content (Join-Path $script:FixturePath 'poodle-state-empty.json') -Raw
     $script:SeededStateJson = Get-Content (Join-Path $script:FixturePath 'poodle-state-seeded.json') -Raw
     $script:RateLimitedStateJson = Get-Content (Join-Path $script:FixturePath 'poodle-state-rate-limited.json') -Raw
+    $script:ReadmeWithPoodle = Get-Content (Join-Path $script:FixturePath 'readme-with-poodle.md') -Raw
 
     function New-TempWorkspace {
         param([string]$StateJson)
         $tempDir = Join-Path ([System.IO.Path]::GetTempPath()) "PoodleTest_$(New-Guid)"
         New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
         Set-Content -Path (Join-Path $tempDir 'poodle-state.json') -Value $StateJson
+        Set-Content -Path (Join-Path $tempDir 'README.md') -Value $script:ReadmeWithPoodle
         return $tempDir
     }
 }
@@ -324,6 +326,8 @@ Describe 'Handle-PoodleInteraction.ps1 - Unit Tests' {
 
             $script:TempDir = New-TempWorkspace -StateJson $partialStateJson
             Set-Location $script:TempDir
+
+            Mock Get-Date { return [datetime]'2026-02-08T12:00:00Z' }
 
             & $script:ScriptPath `
                 -GitHubToken 'fake-token' `
@@ -745,5 +749,209 @@ Describe 'Handle-PoodleInteraction.ps1 - Contract Tests' {
         $script:ResultState.PSObject.Properties.Name | Should -Contain 'interactions'
         $script:ResultState.PSObject.Properties.Name | Should -Contain 'contributions'
         $script:ResultState.PSObject.Properties.Name | Should -Contain 'rateLimits'
+    }
+}
+
+Describe 'Handle-PoodleInteraction.ps1 - Cooldown Tests' {
+
+    BeforeAll {
+        $script:CooldownActiveStateJson = Get-Content (Join-Path $script:FixturePath 'poodle-state-cooldown-active.json') -Raw
+    }
+
+    Describe 'Ecstatic Cooldown Activation' {
+
+        BeforeEach {
+            $script:OriginalLocation = Get-Location
+            Mock Invoke-RestMethod {}
+        }
+
+        AfterEach {
+            Set-Location $script:OriginalLocation
+            if ($script:TempDir -and (Test-Path $script:TempDir)) {
+                Remove-Item $script:TempDir -Recurse -Force -ErrorAction SilentlyContinue
+            }
+        }
+
+        It 'Should set mood to ecstatic (100) immediately on pet' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:EmptyStateJson
+            Set-Location $script:TempDir
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'testuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.mood.score | Should -Be 100
+            $updatedState.mood.state | Should -Be 'ecstatic'
+        }
+
+        It 'Should set mood to ecstatic (100) immediately on feed' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:EmptyStateJson
+            Set-Location $script:TempDir
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!feed' `
+                -InteractionUser 'testuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.mood.score | Should -Be 100
+            $updatedState.mood.state | Should -Be 'ecstatic'
+        }
+
+        It 'Should activate cooldown with preInteractionScore' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:SeededStateJson
+            Set-Location $script:TempDir
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'newuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.cooldown.active | Should -Be $true
+            $updatedState.cooldown.preInteractionScore | Should -Be 65
+            $updatedState.cooldown.stackedBonus | Should -Be 5
+        }
+
+        It 'Should set triggeredAt timestamp when cooldown activates' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:EmptyStateJson
+            Set-Location $script:TempDir
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'testuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.cooldown.triggeredAt | Should -Not -BeNullOrEmpty
+            { [datetime]::Parse($updatedState.cooldown.triggeredAt) } | Should -Not -Throw
+        }
+    }
+
+    Describe 'Cooldown Stacking' {
+
+        BeforeEach {
+            $script:OriginalLocation = Get-Location
+            Mock Invoke-RestMethod {}
+        }
+
+        AfterEach {
+            Set-Location $script:OriginalLocation
+            if ($script:TempDir -and (Test-Path $script:TempDir)) {
+                Remove-Item $script:TempDir -Recurse -Force -ErrorAction SilentlyContinue
+            }
+        }
+
+        It 'Should stack +5 bonus when already in cooldown' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:CooldownActiveStateJson
+            Set-Location $script:TempDir
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'newuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.cooldown.stackedBonus | Should -Be 10
+            $updatedState.cooldown.preInteractionScore | Should -Be 65
+        }
+
+        It 'Should reset triggeredAt when stacking' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:CooldownActiveStateJson
+            Set-Location $script:TempDir
+            
+            $originalState = $script:CooldownActiveStateJson | ConvertFrom-Json
+            $originalTriggeredAt = $originalState.cooldown.triggeredAt
+
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!feed' `
+                -InteractionUser 'newuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.cooldown.triggeredAt | Should -Not -Be $originalTriggeredAt
+        }
+
+        It 'Should accumulate multiple stacks correctly' {
+            $script:TempDir = New-TempWorkspace -StateJson $script:CooldownActiveStateJson
+            Set-Location $script:TempDir
+
+            # First additional interaction
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'user1' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            # Second additional interaction
+            & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!feed' `
+                -InteractionUser 'user2' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $updatedState = Get-Content './poodle-state.json' -Raw | ConvertFrom-Json
+            $updatedState.cooldown.stackedBonus | Should -Be 15
+        }
+    }
+
+    Describe 'Cooldown Output Signal' {
+
+        BeforeEach {
+            $script:TempDir = New-TempWorkspace -StateJson $script:EmptyStateJson
+            $script:OriginalLocation = Get-Location
+            Set-Location $script:TempDir
+            Mock Invoke-RestMethod {}
+        }
+
+        AfterEach {
+            Set-Location $script:OriginalLocation
+            Remove-Item $script:TempDir -Recurse -Force -ErrorAction SilentlyContinue
+        }
+
+        It 'Should output TRIGGER_COOLDOWN=true on successful interaction' {
+            $output = & $script:ScriptPath `
+                -GitHubToken 'fake-token' `
+                -IssueNumber '42' `
+                -IssueTitle 'Poodle Issue' `
+                -InteractionText '!pet' `
+                -InteractionUser 'testuser' `
+                -InteractionType 'issue_comment' `
+                -Repository 'Ba4bes/Ba4bes'
+
+            $output | Should -Contain 'TRIGGER_COOLDOWN=true'
+        }
     }
 }
