@@ -1,7 +1,7 @@
 ![Github Star](Assets/github-stars-logo_Color.png)
 
 <div align="center">
-
+<!--START_SECTION:poodle-->
 ## 🐩 Mood Poodle 🐩
 
 [![content poodle](Assets/poodle-content.png)](https://github.com/Ba4bes/Ba4bes/issues/2)
