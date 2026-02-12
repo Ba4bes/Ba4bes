@@ -8,33 +8,12 @@
 
 ## 🐩 Mood Poodle 🐩
 
-This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
-The more I contribute and the more you pet or feed it, the happier it gets!
+<img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="200">
 
-<img src="Assets/poodle-happy.png" alt="happy poodle" width="400">
+### 🎉 **ECSTATIC** 🎉
+**Mood Score:** 100/100
 
-### 😊 **HAPPY** 😊
-**Mood Score:** 76/100
-
-*Contributed today! • Appreciates the attention*
-
----
-
-� **Interaction Stats**
-| Type | Count |
-|------|-------|
-| Pets received | 2 |
-| Treats received | 0 |
-
-**Recent visitors:** [@Ba4bes](https://github.com/Ba4bes)
-
----
-
-### Want to make the poodle happier?
-
-Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
-- `!pet` - Give the poodle some pets 🐾
-- `!feed` - Give the poodle a treat 🍖
+*Just received love from @Ba4bes! 🎉*
 
 ---
 
@@ -46,7 +25,23 @@ Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/
 | Contributions (30 days) | 135 |
 | Repositories | 64 |
 
-<sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
+🐾 **Interaction Stats**
+| Type | Count |
+|------|-------|
+| Pets received | 2 |
+| Treats received | 1 |
+
+**Recent visitors:** @Ba4bes
+
+---
+
+### Want to make the poodle happier?
+
+Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+- `!pet` - Give the poodle some pets 🐾
+- `!feed` - Give the poodle a treat 🍖
+
+<sub>*The poodle is ecstatic! Mood will settle in ~10 minutes.*</sub>
 
 </div>
 <!--END_SECTION:poodle-->
