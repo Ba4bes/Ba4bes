@@ -239,12 +239,12 @@ function Get-MoodScore {
         $score -= 30  # No contributions found
     }
     
-    # Contribution count bonuses
-    $score += [Math]::Min($ContributionStats.count7Days * 2, 20)   # Up to +20 for weekly activity
-    $score += [Math]::Min($ContributionStats.count30Days / 5, 15) # Up to +15 for monthly activity
+    # Contribution count bonuses - reduced to cap max at 75
+    $score += [Math]::Min($ContributionStats.count7Days * 1, 15)   # Up to +15 for weekly activity
+    $score += [Math]::Min($ContributionStats.count30Days / 10, 7) # Up to +7 for monthly activity
     
-    # Repo count bonus (up to +10)
-    $score += [Math]::Min($ContributionStats.repoCount / 5, 10)
+    # Repo count bonus (up to +3)
+    $score += [Math]::Min($ContributionStats.repoCount / 20, 3)
     
     # Add interaction bonus
     $score += $InteractionBonus
@@ -422,7 +422,7 @@ function Update-ReadmePoodle {
     Sort-Object timestamp -Descending | 
     Select-Object -ExpandProperty username -Unique | 
     Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "@$_" }) -join ", " } else { "No one yet!" }
+    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
     
     $poodleSection = @"
 <!--START_SECTION:poodle-->
@@ -430,7 +430,10 @@ function Update-ReadmePoodle {
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="$($moodInfo.image)" alt="$MoodState poodle" width="200">
+This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
+The more I contribute and the more you pet or feed it, the happier it gets!
+
+<img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
 
 ### $($moodInfo.emoji) **$($MoodState.ToUpper())** $($moodInfo.emoji)
 **Mood Score:** $MoodScore/100
@@ -439,15 +442,7 @@ function Update-ReadmePoodle {
 
 ---
 
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | $lastContrib |
-| Contributions (7 days) | $($ContributionStats.count7Days) |
-| Contributions (30 days) | $($ContributionStats.count30Days) |
-| Repositories | $($ContributionStats.repoCount) |
-
-🐾 **Interaction Stats**
+� **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | $($Interactions.totalPets) |
@@ -459,11 +454,21 @@ function Update-ReadmePoodle {
 
 ### Want to make the poodle happier?
 
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
 - ``!pet`` - Give the poodle some pets 🐾
 - ``!feed`` - Give the poodle a treat 🍖
 
-<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | $lastContrib |
+| Contributions (7 days) | $($ContributionStats.count7Days) |
+| Contributions (30 days) | $($ContributionStats.count30Days) |
+| Repositories | $($ContributionStats.repoCount) |
+
+<sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
 
 </div>
 <!--END_SECTION:poodle-->
@@ -485,17 +490,18 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
         Write-Verbose "README.md successfully updated with poodle mood: $MoodState ($MoodScore/100)"
     }
     catch {
-            $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                $_.Exception,
-                'ReadmeUpdateFailed',
-                [System.Management.Automation.ErrorCategory]::WriteError,
-                $ReadmeFile
-            )
-            $PSCmdlet.ThrowTerminatingError($errorRecord)
-        }
+        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+            $_.Exception,
+            'ReadmeUpdateFailed',
+            [System.Management.Automation.ErrorCategory]::WriteError,
+            $ReadmeFile
+        )
+        $PSCmdlet.ThrowTerminatingError($errorRecord)
+    }
 }
 
 # Main execution
+
 Write-Verbose '🐩 Starting Poodle Mood Update Process...'
 $ErrorActionPreference = 'Stop'
 
@@ -576,3 +582,4 @@ catch {
     )
     $PSCmdlet.ThrowTerminatingError($errorRecord)
 }
+

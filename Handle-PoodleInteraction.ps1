@@ -469,7 +469,8 @@ $emoji **Thank you for the $actionWord, @$InteractionUser!** $emoji
 **Your interaction has been recorded:**
 - Interaction bonus: +$($script:BonusPerInteraction) points
 - Remaining interactions today: $remainingAfterThis/$($script:MaxInteractionsPerDay)
-- 🚀 **The poodle is now ecstatic!** After 10 minutes, it will settle to a happy +$($state.cooldown.stackedBonus) bonus.
+
+The poodle's mood will update in the README momentarily!
 
 ---
 *Total pets received: $($state.interactions.totalPets) | Total treats received: $($state.interactions.totalFeeds)*

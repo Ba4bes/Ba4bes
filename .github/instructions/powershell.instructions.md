@@ -101,9 +101,8 @@ function Set-ResourceConfiguration {
         [string[]]$Tags
     )
 
-    process {
         # Logic here
-    }
+
 }
 ```
 
@@ -150,30 +149,19 @@ function Update-ResourceStatus {
         [switch]$PassThru
     )
 
-    begin {
-        Write-Verbose 'Starting resource status update process'
-        $timestamp = Get-Date
+    Write-Verbose "Processing resource: $Name"
+    $timestamp = Get-Date
+
+    $resource = [PSCustomObject]@{
+        Name        = $Name
+        Status      = $Status
+        LastUpdated = $timestamp
+        UpdatedBy   = $env:USERNAME
     }
 
-    process {
-        # Process each resource individually
-        Write-Verbose "Processing resource: $Name"
-
-        $resource = [PSCustomObject]@{
-            Name        = $Name
-            Status      = $Status
-            LastUpdated = $timestamp
-            UpdatedBy   = $env:USERNAME
-        }
-
-        # Only output if PassThru is specified
-        if ($PassThru.IsPresent) {
-            Write-Output $resource
-        }
-    }
-
-    end {
-        Write-Verbose 'Resource status update process completed'
+    # Only output if PassThru is specified
+    if ($PassThru.IsPresent) {
+        Write-Output $resource
     }
 }
 ```
@@ -223,55 +211,46 @@ function Remove-UserAccount {
         [switch]$Force
     )
 
-    begin {
-        Write-Verbose 'Starting user account removal process'
-        $ErrorActionPreference = 'Stop'
-    }
+    $ErrorActionPreference = 'Stop'
 
-    process {
-        try {
-            # Validation
-            if (-not (Test-UserExists -Username $Username)) {
-                $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                    [System.Exception]::new("User account '$Username' not found"),
-                    'UserNotFound',
-                    [System.Management.Automation.ErrorCategory]::ObjectNotFound,
-                    $Username
-                )
-                $PSCmdlet.WriteError($errorRecord)
-                return
-            }
-
-            # Confirmation
-            $shouldProcessMessage = "Remove user account '$Username'"
-            if ($Force -or $PSCmdlet.ShouldProcess($Username, $shouldProcessMessage)) {
-                Write-Verbose "Removing user account: $Username"
-
-                # Main operation
-                Remove-ADUser -Identity $Username -ErrorAction Stop
-                Write-Warning "User account '$Username' has been removed"
-            }
-        } catch [Microsoft.ActiveDirectory.Management.ADException] {
+    try {
+        # Validation
+        if (-not (Test-UserExists -Username $Username)) {
             $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                $_.Exception,
-                'ActiveDirectoryError',
-                [System.Management.Automation.ErrorCategory]::NotSpecified,
+                [System.Exception]::new("User account '$Username' not found"),
+                'UserNotFound',
+                [System.Management.Automation.ErrorCategory]::ObjectNotFound,
                 $Username
             )
-            $PSCmdlet.ThrowTerminatingError($errorRecord)
-        } catch {
-            $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                $_.Exception,
-                'UnexpectedError',
-                [System.Management.Automation.ErrorCategory]::NotSpecified,
-                $Username
-            )
-            $PSCmdlet.ThrowTerminatingError($errorRecord)
+            $PSCmdlet.WriteError($errorRecord)
+            return
         }
-    }
 
-    end {
-        Write-Verbose 'User account removal process completed'
+        # Confirmation
+        $shouldProcessMessage = "Remove user account '$Username'"
+        if ($Force -or $PSCmdlet.ShouldProcess($Username, $shouldProcessMessage)) {
+            Write-Verbose "Removing user account: $Username"
+
+            # Main operation
+            Remove-ADUser -Identity $Username -ErrorAction Stop
+            Write-Warning "User account '$Username' has been removed"
+        }
+    } catch [Microsoft.ActiveDirectory.Management.ADException] {
+        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+            $_.Exception,
+            'ActiveDirectoryError',
+            [System.Management.Automation.ErrorCategory]::NotSpecified,
+            $Username
+        )
+        $PSCmdlet.ThrowTerminatingError($errorRecord)
+    } catch {
+        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+            $_.Exception,
+            'UnexpectedError',
+            [System.Management.Automation.ErrorCategory]::NotSpecified,
+            $Username
+        )
+        $PSCmdlet.ThrowTerminatingError($errorRecord)
     }
 }
 ```
@@ -324,33 +303,23 @@ function New-Resource {
         [string]$Environment = 'Development'
     )
 
-    begin {
-        Write-Verbose 'Starting resource creation process'
-    }
-
-    process {
-        try {
-            if ($PSCmdlet.ShouldProcess($Name, 'Create new resource')) {
-                # Resource creation logic here
-                Write-Output ([PSCustomObject]@{
-                        Name        = $Name
-                        Environment = $Environment
-                        Created     = Get-Date
-                    })
-            }
-        } catch {
-            $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-                $_.Exception,
-                'ResourceCreationFailed',
-                [System.Management.Automation.ErrorCategory]::NotSpecified,
-                $Name
-            )
-            $PSCmdlet.ThrowTerminatingError($errorRecord)
+    try {
+        if ($PSCmdlet.ShouldProcess($Name, 'Create new resource')) {
+            # Resource creation logic here
+            Write-Output ([PSCustomObject]@{
+                    Name        = $Name
+                    Environment = $Environment
+                    Created     = Get-Date
+                })
         }
-    }
-
-    end {
-        Write-Verbose 'Completed resource creation process'
+    } catch {
+        $errorRecord = [System.Management.Automation.ErrorRecord]::new(
+            $_.Exception,
+            'ResourceCreationFailed',
+            [System.Management.Automation.ErrorCategory]::NotSpecified,
+            $Name
+        )
+        $PSCmdlet.ThrowTerminatingError($errorRecord)
     }
 }
 ```

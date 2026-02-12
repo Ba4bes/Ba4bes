@@ -1,31 +1,38 @@
-![Github Star](Assets/github-stars-logo_Color.png)
+<div align="right">
+<img src="Assets/github-stars-logo_Color.png" alt="Github Star" width="150">
+</div>
 
 <div align="center">
 <!--START_SECTION:poodle-->
+<div align="center">
+
 ## 🐩 Mood Poodle 🐩
 
-[![content poodle](Assets/poodle-content.png)](https://github.com/Ba4bes/Ba4bes/issues/2)
+This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
+The more I contribute and the more you pet or feed it, the happier it gets!
 
-### 🙂 **CONTENT** 🙂
-**Mood Score:** 50/100
+<img src="Assets/poodle-happy.png" alt="happy poodle" width="400">
 
-*Waiting for first contribution*
+### 😊 **HAPPY** 😊
+**Mood Score:** 62/100
+
+*Active in the last few days • Appreciates the attention*
 
 ---
 
 🐾 **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 0 |
+| Pets received | 2 |
 | Treats received | 0 |
 
-**Recent visitors:** No one yet!
+**Recent visitors:** [@Ba4bes](https://github.com/Ba4bes)
 
 ---
 
 ### Want to make the poodle happier?
 
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
 - `!pet` - Give the poodle some pets 🐾
 - `!feed` - Give the poodle a treat 🍖
 
@@ -34,12 +41,12 @@ Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aop
 📊 **Contribution Stats**
 | Metric | Value |
 |--------|-------|
-| Last Contribution | Never |
-| Contributions (7 days) | 0 |
-| Contributions (30 days) | 0 |
-| Repositories | 0 |
+| Last Contribution | 2026-02-09 |
+| Contributions (7 days) | 18 |
+| Contributions (30 days) | 128 |
+| Repositories | 64 |
 
-
+<sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
 
 </div>
 <!--END_SECTION:poodle-->
