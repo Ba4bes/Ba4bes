@@ -5,11 +5,11 @@
     "lastCalculated": "2026-02-12T12:17:20.3013746Z"
   },
   "decay": {
-    "interactionBonus": 3,
-    "lastDecayApplied": "2026-02-12T16:34:24.4549035Z"
+    "interactionBonus": 5,
+    "lastDecayApplied": "2026-02-12T17:00:48.7835491Z"
   },
   "interactions": {
-    "totalPets": 2,
+    "totalPets": 3,
     "totalFeeds": 1,
     "log": [
       {
@@ -29,6 +29,12 @@
         "type": "feed",
         "timestamp": "2026-02-12T16:34:22.4858273Z",
         "issueNum": 2
+      },
+      {
+        "username": "Ba4bes",
+        "type": "pet",
+        "timestamp": "2026-02-12T17:00:46.7791895Z",
+        "issueNum": 2
       }
     ]
   },
@@ -42,13 +48,14 @@
   "rateLimits": {
     "Ba4bes": [
       "2026-02-12T10:49:03.141203Z",
-      "2026-02-12T16:34:22.5232364Z"
+      "2026-02-12T16:34:22.5232364Z",
+      "2026-02-12T17:00:46.8010026Z"
     ]
   },
   "cooldown": {
     "active": true,
     "preInteractionScore": 76,
-    "stackedBonus": 5,
-    "triggeredAt": "2026-02-12T16:34:22.5159265Z"
+    "stackedBonus": 10,
+    "triggeredAt": "2026-02-12T17:00:46.7963814Z"
   }
 }
