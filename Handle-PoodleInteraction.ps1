@@ -76,9 +76,103 @@ param(
 
 # Configuration
 $script:StateFile = './poodle-state.json'
+$script:ReadmeFile = './README.md'
 $script:MaxInteractionsPerDay = 5
 $script:RollingWindowHours = 24
 $script:BonusPerInteraction = 3  # Points added per pet/feed
+$script:CooldownStackBonus = 5   # Points added to base score after cooldown per interaction
+
+# Mood configuration
+$script:MoodConfig = @{
+    sad      = @{ min = 0; max = 20; image = "Assets/poodle-sad.png"; emoji = "😢" }
+    bored    = @{ min = 21; max = 40; image = "Assets/poodle-bored.png"; emoji = "😐" }
+    content  = @{ min = 41; max = 60; image = "Assets/poodle-content.png"; emoji = "🙂" }
+    happy    = @{ min = 61; max = 80; image = "Assets/poodle-happy.png"; emoji = "😊" }
+    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.png"; emoji = "🎉" }
+}
+
+function Update-ReadmePoodleEcstatic {
+    <#
+    .SYNOPSIS
+        Updates the README.md with ecstatic mood immediately after interaction.
+    #>
+    [CmdletBinding()]
+    param(
+        [Parameter(Mandatory)]
+        [object]$State,
+
+        [Parameter(Mandatory)]
+        [string]$InteractingUser
+    )
+
+    $moodInfo = $script:MoodConfig['ecstatic']
+    $lastContrib = if ($State.contributions.lastContributionDate) { $State.contributions.lastContributionDate } else { "Never" }
+
+    # Get recent interaction usernames (last 5 unique)
+    $recentUsers = $State.interactions.log | 
+        Sort-Object timestamp -Descending | 
+        Select-Object -ExpandProperty username -Unique | 
+        Select-Object -First 5
+    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "@$_" }) -join ", " } else { "No one yet!" }
+
+    $poodleSection = @"
+<!--START_SECTION:poodle-->
+<div align="center">
+
+## 🐩 Mood Poodle 🐩
+
+<img src="$($moodInfo.image)" alt="ecstatic poodle" width="200">
+
+### $($moodInfo.emoji) **ECSTATIC** $($moodInfo.emoji)
+**Mood Score:** 100/100
+
+*Just received love from @$InteractingUser! 🎉*
+
+---
+
+📊 **Contribution Stats**
+| Metric | Value |
+|--------|-------|
+| Last Contribution | $lastContrib |
+| Contributions (7 days) | $($State.contributions.count7Days) |
+| Contributions (30 days) | $($State.contributions.count30Days) |
+| Repositories | $($State.contributions.repoCount) |
+
+🐾 **Interaction Stats**
+| Type | Count |
+|------|-------|
+| Pets received | $($State.interactions.totalPets) |
+| Treats received | $($State.interactions.totalFeeds) |
+
+**Recent visitors:** $recentUsersText
+
+---
+
+### Want to make the poodle happier?
+
+Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
+- ``!pet`` - Give the poodle some pets 🐾
+- ``!feed`` - Give the poodle a treat 🍖
+
+<sub>*The poodle is ecstatic! Mood will settle in ~10 minutes.*</sub>
+
+</div>
+<!--END_SECTION:poodle-->
+"@
+
+    $readme = Get-Content $script:ReadmeFile -Raw
+    $pattern = '(?s)<!--START_SECTION:poodle-->.*<!--END_SECTION:poodle-->'
+
+    if ($readme -match $pattern) {
+        $newReadme = $readme -replace $pattern, $poodleSection
+    }
+    else {
+        $newReadme = $readme + "`n`n" + $poodleSection
+    }
+
+    Set-Content -Path $script:ReadmeFile -Value $newReadme -NoNewline
+    Write-Verbose "README.md updated with ecstatic mood!"
+}
 
 function Add-GitHubIssueComment {
     <#
@@ -214,7 +308,7 @@ if (-not $state.rateLimits) {
 }
 
 # Determine interaction type from the interaction text
-$textToCheck = $InteractionText.ToLower()
+$textToCheck = ($InteractionText ?? '').ToLower()
 $interactionAction = $null
 
 if ($textToCheck -match '!pet|pet the poodle|poodle pet') {
@@ -314,6 +408,39 @@ if ($state.interactions.log.Count -gt 100) {
 # Add interaction bonus
 $state.decay.interactionBonus = [int]$state.decay.interactionBonus + $script:BonusPerInteraction
 
+# Handle ecstatic cooldown for instant gratification
+# Ensure cooldown object exists
+if (-not $state.cooldown) {
+    $state | Add-Member -NotePropertyName 'cooldown' -NotePropertyValue ([PSCustomObject]@{
+        active = $false
+        preInteractionScore = $null
+        stackedBonus = 0
+        triggeredAt = $null
+    }) -Force
+}
+
+$nowUtcCooldown = (Get-Date).ToUniversalTime().ToString('o')
+if (-not $state.cooldown.active) {
+    # First interaction - store current score and activate cooldown
+    $state.cooldown.preInteractionScore = [int]$state.mood.score
+    $state.cooldown.stackedBonus = $script:CooldownStackBonus
+    $state.cooldown.active = $true
+    $state.cooldown.triggeredAt = $nowUtcCooldown
+    Write-Verbose "Cooldown activated - stored pre-interaction score: $($state.cooldown.preInteractionScore)"
+}
+else {
+    # Already in cooldown - stack the bonus
+    $state.cooldown.stackedBonus = [int]$state.cooldown.stackedBonus + $script:CooldownStackBonus
+    # Reset the cooldown timer for stacked interactions
+    $state.cooldown.triggeredAt = $nowUtcCooldown
+    Write-Verbose "Cooldown bonus stacked - total bonus: $($state.cooldown.stackedBonus)"
+}
+
+# Set poodle to ecstatic immediately
+$state.mood.score = 100
+$state.mood.state = 'ecstatic'
+Write-Verbose 'Poodle mood set to ecstatic (100)!'
+
 # Add rate limit entry for user
 $nowUtc = (Get-Date).ToUniversalTime().ToString('o')
 if (-not $state.rateLimits.$InteractionUser) {
@@ -330,11 +457,14 @@ else {
 $state | ConvertTo-Json -Depth 10 | Set-Content -Path $script:StateFile
 Write-Verbose 'State updated'
 
+# Update README immediately to show ecstatic mood
+Update-ReadmePoodleEcstatic -State $state -InteractingUser $InteractionUser
+
 # Post thank you comment
 $thankYouComment = @"
 $emoji **Thank you for the $actionWord, @$InteractionUser!** $emoji
 
-*The poodle $response and wags its tail!* 🐩✨
+*The poodle $response and is now ECSTATIC!* 🐩🎉✨
 
 **Your interaction has been recorded:**
 - Interaction bonus: +$($script:BonusPerInteraction) points
@@ -347,5 +477,8 @@ The poodle's mood will update in the README momentarily!
 "@
 
 Add-GitHubIssueComment -Token $GitHubToken -RepositoryName $Repository -IssueNumber $IssueNumber -Comment $thankYouComment
+
+# Output for GitHub Actions to know cooldown workflow should be triggered
+Write-Output "TRIGGER_COOLDOWN=true"
 
 Write-Verbose '✅ Interaction processed successfully!'

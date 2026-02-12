@@ -20,7 +20,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 
 ---
 
-� **Interaction Stats**
+🐾 **Interaction Stats**
 | Type | Count |
 |------|-------|
 | Pets received | 2 |
