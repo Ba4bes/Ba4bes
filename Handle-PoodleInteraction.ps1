@@ -470,7 +470,7 @@ $emoji **Thank you for the $actionWord, @$InteractionUser!** $emoji
 - Interaction bonus: +$($script:BonusPerInteraction) points
 - Remaining interactions today: $remainingAfterThis/$($script:MaxInteractionsPerDay)
 
-The poodle's mood will update in the README momentarily!
+The poodle's mood will update in the [profile](https://github.com/ba4bes)!
 
 ---
 *Total pets received: $($state.interactions.totalPets) | Total treats received: $($state.interactions.totalFeeds)*
