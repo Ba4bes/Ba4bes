@@ -31,18 +31,10 @@ param(
     [string]$GitHubUser = $env:GITHUB_REPOSITORY_OWNER
 )
 
-# Configuration
-$StateFile = "./poodle-state.json"
-$ReadmeFile = "./README.md"
+# Load shared configuration
+. ./poodle-config.ps1
 
-# Mood thresholds and images
-$MoodConfig = @{
-    sad      = @{ min = 0; max = 20; image = "Assets/poodle-sad.png"; emoji = "😢" }
-    bored    = @{ min = 21; max = 40; image = "Assets/poodle-bored.png"; emoji = "😐" }
-    content  = @{ min = 41; max = 60; image = "Assets/poodle-content.png"; emoji = "🙂" }
-    happy    = @{ min = 61; max = 80; image = "Assets/poodle-happy.png"; emoji = "😊" }
-    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.png"; emoji = "🎉" }
-}
+# No script-specific configuration needed for Restore-PoodleMood
 
 function Get-MoodState {
     <#
@@ -87,72 +79,8 @@ function Update-ReadmePoodle {
         [object]$Interactions
     )
 
-    $moodInfo = $MoodConfig[$MoodState]
-    $lastContrib = if ($ContributionStats.lastContributionDate) { $ContributionStats.lastContributionDate } else { "Never" }
-
-    # Get recent interaction usernames (last 5 unique)
-    $recentUsers = $Interactions.log | 
-        Sort-Object timestamp -Descending | 
-        Select-Object -ExpandProperty username -Unique | 
-        Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
-
-    $poodleSection = @"
-<!--START_SECTION:poodle-->
-<div align="center">
-
-## 🐩 Mood Poodle 🐩
-
-<img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
-
-### $($moodInfo.emoji) **$($MoodState.ToUpper())** $($moodInfo.emoji)
-**Mood Score:** $MoodScore/100
-
-*$MoodReason*
-
----
-
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | $lastContrib |
-| Contributions (7 days) | $($ContributionStats.count7Days) |
-| Contributions (30 days) | $($ContributionStats.count30Days) |
-| Repositories | $($ContributionStats.repoCount) |
-
-🐾 **Interaction Stats**
-| Type | Count |
-|------|-------|
-| Pets received | $($Interactions.totalPets) |
-| Treats received | $($Interactions.totalFeeds) |
-
-**Recent visitors:** $recentUsersText
-
----
-
-### Want to make the poodle happier?
-
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
-- ``!pet`` - Give the poodle some pets 🐾
-- ``!feed`` - Give the poodle a treat 🍖
-
-<sub>*The poodle's mood updates every 6 hours based on GitHub activity and visitor interactions!*</sub>
-
-</div>
-<!--END_SECTION:poodle-->
-"@
-
-    $readme = Get-Content $ReadmeFile -Raw
-    $pattern = '(?s)<!--START_SECTION:poodle-->.*<!--END_SECTION:poodle-->'
-
-    if ($readme -match $pattern) {
-        $newReadme = $readme -replace $pattern, $poodleSection
-    }
-    else {
-        $newReadme = $readme + "`n`n" + $poodleSection
-    }
-
-    Set-Content -Path $ReadmeFile -Value $newReadme -NoNewline
+    $poodleSection = Get-PoodleMarkdownSection -MoodState $MoodState -MoodScore $MoodScore -MoodReason $MoodReason -ContributionStats $ContributionStats -Interactions $Interactions
+    Update-ReadmeWithPoodleSection -PoodleSection $poodleSection
     Write-Verbose "README.md updated with poodle mood: $MoodState ($MoodScore/100)"
 }
 
@@ -161,17 +89,17 @@ Write-Verbose '🐩 Starting Poodle Mood Restoration after Cooldown...'
 $ErrorActionPreference = 'Stop'
 
 # Load state
-if (-not (Test-Path -Path $StateFile)) {
+if (-not (Test-Path -Path $script:StateFile)) {
     $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-        [System.IO.FileNotFoundException]::new("State file not found: $StateFile"),
+        [System.IO.FileNotFoundException]::new("State file not found: $script:StateFile"),
         'StateFileNotFound',
         [System.Management.Automation.ErrorCategory]::ObjectNotFound,
-        $StateFile
+        $script:StateFile
     )
     $PSCmdlet.ThrowTerminatingError($errorRecord)
 }
 
-$state = Get-Content -Path $StateFile -Raw | ConvertFrom-Json
+$state = Get-Content -Path $script:StateFile -Raw | ConvertFrom-Json
 
 # Check if cooldown is active
 if (-not $state.cooldown -or -not $state.cooldown.active) {
@@ -213,8 +141,8 @@ $state.cooldown.stackedBonus = 0
 $state.cooldown.triggeredAt = $null
 
 # Save state
-$state | ConvertTo-Json -Depth 10 | Set-Content -Path $StateFile
-Write-Verbose "State saved to $StateFile"
+$state | ConvertTo-Json -Depth 10 | Set-Content -Path $script:StateFile
+Write-Verbose "State saved to $script:StateFile"
 
 # Prepare contribution stats for README update
 $contributionStats = @{

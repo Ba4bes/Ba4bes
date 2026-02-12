@@ -45,19 +45,11 @@ param(
     [string]$GitHubUser = $env:GITHUB_REPOSITORY_OWNER
 )
 
-# Configuration
-$StateFile = "./poodle-state.json"
-$ReadmeFile = "./README.md"
-$DecayPerCycle = 1  # Interaction bonus decay per 6-hour cycle
+# Load shared configuration
+. ./poodle-config.ps1
 
-# Mood thresholds and images
-$MoodConfig = @{
-    sad      = @{ min = 0; max = 20; image = "Assets/poodle-sad.png"; emoji = "😢" }
-    bored    = @{ min = 21; max = 40; image = "Assets/poodle-bored.png"; emoji = "😐" }
-    content  = @{ min = 41; max = 60; image = "Assets/poodle-content.png"; emoji = "🙂" }
-    happy    = @{ min = 61; max = 80; image = "Assets/poodle-happy.png"; emoji = "😊" }
-    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.png"; emoji = "🎉" }
-}
+# Script-specific configuration
+$DecayPerCycle = 1  # Interaction bonus decay per 6-hour cycle
 
 function Get-GitHubContributions {
     <#
@@ -368,24 +360,23 @@ function Update-ReadmePoodle {
     <#
     .SYNOPSIS
         Updates the README.md file with current poodle mood and statistics.
-    
+
     .DESCRIPTION
         Generates a formatted poodle section with mood image, score, statistics,
-        and interaction history, then replaces the existing section in README.md
-        between the <!--START_SECTION:poodle--> and <!--END_SECTION:poodle--> markers.
-    
+        and interaction history, then updates README.md with the current mood.
+
     .PARAMETER MoodState
         The current mood state name.
-    
+
     .PARAMETER MoodScore
         The numerical mood score (0-100).
-    
+
     .PARAMETER MoodReason
         The human-readable reason for the current mood.
-    
+
     .PARAMETER ContributionStats
         Hashtable containing contribution statistics.
-    
+
     .PARAMETER Interactions
         Object containing interaction history (totalPets, totalFeeds, log).
     #>
@@ -411,82 +402,13 @@ function Update-ReadmePoodle {
         [ValidateNotNull()]
         [object]$Interactions
     )
-    
+
     Write-Verbose "Updating README.md with poodle mood: $MoodState ($MoodScore/100)"
     
-    $moodInfo = $MoodConfig[$MoodState]
-    $lastContrib = if ($ContributionStats.lastContributionDate) { $ContributionStats.lastContributionDate } else { "Never" }
-    
-    # Get recent interaction usernames (last 5 unique)
-    $recentUsers = $Interactions.log | 
-    Sort-Object timestamp -Descending | 
-    Select-Object -ExpandProperty username -Unique | 
-    Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
-    
-    $poodleSection = @"
-<!--START_SECTION:poodle-->
-<div align="center">
-
-## 🐩 Mood Poodle 🐩
-
-This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
-The more I contribute and the more you pet or feed it, the happier it gets!
-
-<img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
-
-### $($moodInfo.emoji) **$($MoodState.ToUpper())** $($moodInfo.emoji)
-**Mood Score:** $MoodScore/100
-
-*$MoodReason*
-
----
-
-� **Interaction Stats**
-| Type | Count |
-|------|-------|
-| Pets received | $($Interactions.totalPets) |
-| Treats received | $($Interactions.totalFeeds) |
-
-**Recent visitors:** $recentUsersText
-
----
-
-### Want to make the poodle happier?
-
-Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/issues/2) with:
-- ``!pet`` - Give the poodle some pets 🐾
-- ``!feed`` - Give the poodle a treat 🍖
-
----
-
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | $lastContrib |
-| Contributions (7 days) | $($ContributionStats.count7Days) |
-| Contributions (30 days) | $($ContributionStats.count30Days) |
-| Repositories | $($ContributionStats.repoCount) |
-
-<sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
-
-</div>
-<!--END_SECTION:poodle-->
-"@
-    
-    $readme = Get-Content $ReadmeFile -Raw
-    $pattern = '(?s)<!--START_SECTION:poodle-->.*<!--END_SECTION:poodle-->'
-    
-    if ($readme -match $pattern) {
-        $newReadme = $readme -replace $pattern, $poodleSection
-    }
-    else {
-        # If markers don't exist, append after the first section
-        $newReadme = $readme + "`n`n" + $poodleSection
-    }
+    $poodleSection = Get-PoodleMarkdownSection -MoodState $MoodState -MoodScore $MoodScore -MoodReason $MoodReason -ContributionStats $ContributionStats -Interactions $Interactions
     
     try {
-        Set-Content -Path $ReadmeFile -Value $newReadme -NoNewline -ErrorAction Stop
+        Update-ReadmeWithPoodleSection -PoodleSection $poodleSection -ErrorAction Stop
         Write-Verbose "README.md successfully updated with poodle mood: $MoodState ($MoodScore/100)"
     }
     catch {
@@ -494,7 +416,7 @@ Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/
             $_.Exception,
             'ReadmeUpdateFailed',
             [System.Management.Automation.ErrorCategory]::WriteError,
-            $ReadmeFile
+            $script:ReadmeFile
         )
         $PSCmdlet.ThrowTerminatingError($errorRecord)
     }
@@ -507,18 +429,18 @@ $ErrorActionPreference = 'Stop'
 
 # Load state
 try {
-    if (-not (Test-Path -Path $StateFile)) {
+    if (-not (Test-Path -Path $script:StateFile)) {
         $errorRecord = [System.Management.Automation.ErrorRecord]::new(
-            [System.IO.FileNotFoundException]::new("State file not found: $StateFile"),
+            [System.IO.FileNotFoundException]::new("State file not found: $script:StateFile"),
             'StateFileNotFound',
             [System.Management.Automation.ErrorCategory]::ObjectNotFound,
-            $StateFile
+            $script:StateFile
         )
         $PSCmdlet.ThrowTerminatingError($errorRecord)
     }
     
-    $state = Get-Content $StateFile -Raw -ErrorAction Stop | ConvertFrom-Json
-    Write-Verbose "State loaded from $StateFile"
+    $state = Get-Content $script:StateFile -Raw -ErrorAction Stop | ConvertFrom-Json
+    Write-Verbose "State loaded from $script:StateFile"
 
     # Check if cooldown is active - skip mood calculation to preserve ecstatic state
     if ($state.cooldown -and $state.cooldown.active) {
@@ -529,7 +451,7 @@ try {
         $newBonus = [Math]::Max(0, $currentBonus - $DecayPerCycle)
         $state.decay.interactionBonus = $newBonus
         $state.decay.lastDecayApplied = (Get-Date).ToUniversalTime().ToString("o")
-        $state | ConvertTo-Json -Depth 10 | Set-Content $StateFile -ErrorAction Stop
+        $state | ConvertTo-Json -Depth 10 | Set-Content $script:StateFile -ErrorAction Stop
         Write-Verbose "Decay applied, but mood preserved. Exiting gracefully."
         exit 0
     }
@@ -565,8 +487,8 @@ try {
     $state.contributions.lastFetched = (Get-Date).ToUniversalTime().ToString("o")
     
     # Save state
-    $state | ConvertTo-Json -Depth 10 | Set-Content $StateFile -ErrorAction Stop
-    Write-Verbose "State saved to $StateFile"
+    $state | ConvertTo-Json -Depth 10 | Set-Content $script:StateFile -ErrorAction Stop
+    Write-Verbose "State saved to $script:StateFile"
 
     # Update README
     Update-ReadmePoodle -MoodState $moodState -MoodScore $moodScore -MoodReason $moodReason -ContributionStats $contributionStats -Interactions $state.interactions

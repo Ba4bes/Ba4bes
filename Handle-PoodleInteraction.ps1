@@ -74,22 +74,14 @@ param(
     [string]$Repository = $env:GITHUB_REPOSITORY
 )
 
-# Configuration
-$script:StateFile = './poodle-state.json'
-$script:ReadmeFile = './README.md'
+# Load shared configuration
+. ./poodle-config.ps1
+
+# Script-specific configuration
 $script:MaxInteractionsPerDay = 5
 $script:RollingWindowHours = 24
 $script:BonusPerInteraction = 3  # Points added per pet/feed
 $script:CooldownStackBonus = 5   # Points added to base score after cooldown per interaction
-
-# Mood configuration
-$script:MoodConfig = @{
-    sad      = @{ min = 0; max = 20; image = "Assets/poodle-sad.png"; emoji = "😢" }
-    bored    = @{ min = 21; max = 40; image = "Assets/poodle-bored.png"; emoji = "😐" }
-    content  = @{ min = 41; max = 60; image = "Assets/poodle-content.png"; emoji = "🙂" }
-    happy    = @{ min = 61; max = 80; image = "Assets/poodle-happy.png"; emoji = "😊" }
-    ecstatic = @{ min = 81; max = 100; image = "Assets/poodle-ecstatic.png"; emoji = "🎉" }
-}
 
 function Update-ReadmePoodleEcstatic {
     <#
@@ -105,72 +97,17 @@ function Update-ReadmePoodleEcstatic {
         [string]$InteractingUser
     )
 
-    $moodInfo = $script:MoodConfig['ecstatic']
-    $lastContrib = if ($State.contributions.lastContributionDate) { $State.contributions.lastContributionDate } else { "Never" }
-
-    # Get recent interaction usernames (last 5 unique)
-    $recentUsers = $State.interactions.log | 
-        Sort-Object timestamp -Descending | 
-        Select-Object -ExpandProperty username -Unique | 
-        Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
-
-    $poodleSection = @"
-<!--START_SECTION:poodle-->
-<div align="center">
-
-## 🐩 Mood Poodle 🐩
-
-<img src="$($moodInfo.image)" alt="ecstatic poodle" width="400">
-
-### $($moodInfo.emoji) **ECSTATIC** $($moodInfo.emoji)
-**Mood Score:** 100/100
-
-*Just received love from [@$InteractingUser](https://github.com/$InteractingUser)! 🎉*
-
----
-
-📊 **Contribution Stats**
-| Metric | Value |
-|--------|-------|
-| Last Contribution | $lastContrib |
-| Contributions (7 days) | $($State.contributions.count7Days) |
-| Contributions (30 days) | $($State.contributions.count30Days) |
-| Repositories | $($State.contributions.repoCount) |
-
-🐾 **Interaction Stats**
-| Type | Count |
-|------|-------|
-| Pets received | $($State.interactions.totalPets) |
-| Treats received | $($State.interactions.totalFeeds) |
-
-**Recent visitors:** $recentUsersText
-
----
-
-### Want to make the poodle happier?
-
-Comment on the [🐩 Poodle Interaction issue](../../issues?q=is%3Aissue+is%3Aopen+Poodle+in%3Atitle) with:
-- ``!pet`` - Give the poodle some pets 🐾
-- ``!feed`` - Give the poodle a treat 🍖
-
-<sub>*The poodle is ecstatic! Mood will settle in ~10 minutes.*</sub>
-
-</div>
-<!--END_SECTION:poodle-->
-"@
-
-    $readme = Get-Content $script:ReadmeFile -Raw
-    $pattern = '(?s)<!--START_SECTION:poodle-->.*<!--END_SECTION:poodle-->'
-
-    if ($readme -match $pattern) {
-        $newReadme = $readme -replace $pattern, $poodleSection
-    }
-    else {
-        $newReadme = $readme + "`n`n" + $poodleSection
+    $moodReason = "Just received love from [@$InteractingUser](https://github.com/$InteractingUser)! 🎉"
+    
+    $contributionStats = @{
+        lastContributionDate = $State.contributions.lastContributionDate
+        count7Days           = $State.contributions.count7Days
+        count30Days          = $State.contributions.count30Days
+        repoCount            = $State.contributions.repoCount
     }
 
-    Set-Content -Path $script:ReadmeFile -Value $newReadme -NoNewline
+    $poodleSection = Get-PoodleMarkdownSection -MoodState 'ecstatic' -MoodScore 100 -MoodReason $moodReason -ContributionStats $contributionStats -Interactions $State.interactions
+    Update-ReadmeWithPoodleSection -PoodleSection $poodleSection
     Write-Verbose "README.md updated with ecstatic mood!"
 }
 
@@ -479,6 +416,13 @@ The poodle's mood will update in the [profile](https://github.com/ba4bes)!
 Add-GitHubIssueComment -Token $GitHubToken -RepositoryName $Repository -IssueNumber $IssueNumber -Comment $thankYouComment
 
 # Output for GitHub Actions to know cooldown workflow should be triggered
-Write-Output "TRIGGER_COOLDOWN=true"
+if ($env:GITHUB_OUTPUT) {
+    Add-Content -Path $env:GITHUB_OUTPUT -Value "trigger_cooldown=true"
+    Write-Verbose "Set GitHub Actions output: trigger_cooldown=true"
+}
+else {
+    # Fallback for local testing
+    Write-Output "TRIGGER_COOLDOWN=true"
+}
 
 Write-Verbose '✅ Interaction processed successfully!'
