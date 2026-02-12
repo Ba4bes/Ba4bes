@@ -11,19 +11,19 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<img src="Assets/poodle-content.png" alt="content poodle" width="400">
+<img src="Assets/poodle-happy.png" alt="happy poodle" width="400">
 
-### 🙂 **CONTENT** 🙂
-**Mood Score:** 60/100
+### 😊 **HAPPY** 😊
+**Mood Score:** 62/100
 
-*Active in the last few days*
+*Active in the last few days • Appreciates the attention*
 
 ---
 
 � **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 1 |
+| Pets received | 2 |
 | Treats received | 0 |
 
 **Recent visitors:** [@Ba4bes](https://github.com/Ba4bes)
