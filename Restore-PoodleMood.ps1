@@ -95,7 +95,7 @@ function Update-ReadmePoodle {
         Sort-Object timestamp -Descending | 
         Select-Object -ExpandProperty username -Unique | 
         Select-Object -First 5
-    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "@$_" }) -join ", " } else { "No one yet!" }
+    $recentUsersText = if ($recentUsers) { ($recentUsers | ForEach-Object { "[@$_](https://github.com/$_)" }) -join ", " } else { "No one yet!" }
 
     $poodleSection = @"
 <!--START_SECTION:poodle-->
@@ -103,7 +103,7 @@ function Update-ReadmePoodle {
 
 ## 🐩 Mood Poodle 🐩
 
-<img src="$($moodInfo.image)" alt="$MoodState poodle" width="200">
+<img src="$($moodInfo.image)" alt="$MoodState poodle" width="400">
 
 ### $($moodInfo.emoji) **$($MoodState.ToUpper())** $($moodInfo.emoji)
 **Mood Score:** $MoodScore/100
