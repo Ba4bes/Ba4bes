@@ -14,9 +14,9 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-happy.png" alt="happy poodle" width="400"></a>
 
 ### 😊 **HAPPY** 😊
-**Mood Score:** 79/100
+**Mood Score:** 73/100
 
-*Contributed today! • Appreciates the attention*
+*Contributed yesterday • Appreciates the attention*
 
 ---
 
@@ -42,8 +42,8 @@ Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/
 | Metric | Value |
 |--------|-------|
 | Last Contribution | 2026-02-12 |
-| Contributions (7 days) | 29 |
-| Contributions (30 days) | 139 |
+| Contributions (7 days) | 27 |
+| Contributions (30 days) | 134 |
 | Repositories | 64 |
 
 <sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
