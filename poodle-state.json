@@ -1,12 +1,12 @@
 {
   "mood": {
-    "score": 70,
+    "score": 65,
     "state": "happy",
-    "lastCalculated": "2026-02-13T18:16:28.3429530Z"
+    "lastCalculated": "2026-02-14T00:29:09.6908121Z"
   },
   "decay": {
     "interactionBonus": 0,
-    "lastDecayApplied": "2026-02-13T18:16:28.3465469Z"
+    "lastDecayApplied": "2026-02-14T00:29:09.6947261Z"
   },
   "interactions": {
     "totalPets": 3,
@@ -43,7 +43,7 @@
     "count7Days": 27,
     "count30Days": 134,
     "repoCount": 64,
-    "lastFetched": "2026-02-13T18:16:28.3503568Z"
+    "lastFetched": "2026-02-14T00:29:09.6988208Z"
   },
   "rateLimits": {
     "Ba4bes": [
