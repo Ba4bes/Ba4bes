@@ -11,22 +11,22 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-happy.png" alt="happy poodle" width="400"></a>
+<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400"></a>
 
-### 😊 **HAPPY** 😊
-**Mood Score:** 70/100
+### 🎉 **ECSTATIC** 🎉
+**Mood Score:** 100/100
 
-*Contributed yesterday*
+*Just received love from [@lzcabrera](https://github.com/lzcabrera)! 🎉*
 
 ---
 
 📊 **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 3 |
+| Pets received | 4 |
 | Treats received | 1 |
 
-**Recent visitors:** [@Ba4bes](https://github.com/Ba4bes)
+**Recent visitors:** [@lzcabrera](https://github.com/lzcabrera), [@Ba4bes](https://github.com/Ba4bes)
 
 ---
 
