@@ -14,7 +14,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-sad.png" alt="sad poodle" width="400"></a>
 
 ### 😢 **SAD** 😢
-**Mood Score:** 18/100
+**Mood Score:** 17/100
 
 *It's been 8 days... • Appreciates the attention*
 
