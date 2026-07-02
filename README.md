@@ -24,7 +24,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 | Type | Count |
 |------|-------|
 | Pets received | 5 |
-| Treats received | 2 |
+| Treats received | 3 |
 
 **Recent visitors:** [@MMT40](https://github.com/MMT40), [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard), [@lzcabrera](https://github.com/lzcabrera), [@Ba4bes](https://github.com/Ba4bes)
 
