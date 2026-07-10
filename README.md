@@ -11,10 +11,10 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-content.png" alt="content poodle" width="400"></a>
+<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-bored.png" alt="bored poodle" width="400"></a>
 
-### 🙂 **CONTENT** 🙂
-**Mood Score:** 46/100
+### 😐 **BORED** 😐
+**Mood Score:** 40/100
 
 *Active in the last few days*
 
