@@ -11,22 +11,22 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-bored.png" alt="bored poodle" width="400"></a>
+<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400"></a>
 
-### 😐 **BORED** 😐
-**Mood Score:** 36/100
+### 🎉 **ECSTATIC** 🎉
+**Mood Score:** 100/100
 
-*Missing you a bit...*
+*Just received love from [@Grow13](https://github.com/Grow13)! 🎉*
 
 ---
 
 📊 **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 5 |
+| Pets received | 6 |
 | Treats received | 3 |
 
-**Recent visitors:** [@MMT40](https://github.com/MMT40), [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard), [@lzcabrera](https://github.com/lzcabrera), [@Ba4bes](https://github.com/Ba4bes)
+**Recent visitors:** [@Grow13](https://github.com/Grow13), [@MMT40](https://github.com/MMT40), [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard), [@lzcabrera](https://github.com/lzcabrera), [@Ba4bes](https://github.com/Ba4bes)
 
 ---
 

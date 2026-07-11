@@ -1,15 +1,15 @@
 {
   "mood": {
-    "score": 36,
-    "state": "bored",
+    "score": 100,
+    "state": "ecstatic",
     "lastCalculated": "2026-07-11T06:48:22.9662529Z"
   },
   "decay": {
-    "interactionBonus": 0,
-    "lastDecayApplied": "2026-07-11T06:48:22.9699307Z"
+    "interactionBonus": 2,
+    "lastDecayApplied": "2026-07-11T09:26:57.9168255Z"
   },
   "interactions": {
-    "totalPets": 5,
+    "totalPets": 6,
     "totalFeeds": 3,
     "log": [
       {
@@ -59,6 +59,12 @@
         "type": "feed",
         "timestamp": "2026-07-02T02:13:03.5533737Z",
         "issueNum": 2
+      },
+      {
+        "username": "Grow13",
+        "type": "pet",
+        "timestamp": "2026-07-11T09:26:56.3805296Z",
+        "issueNum": 2
       }
     ]
   },
@@ -84,12 +90,15 @@
     "MMT40": [
       "2026-07-02T02:12:26.4844602Z",
       "2026-07-02T02:13:03.5923773Z"
+    ],
+    "Grow13": [
+      "2026-07-11T09:26:56.3974938Z"
     ]
   },
   "cooldown": {
-    "active": false,
-    "preInteractionScore": null,
-    "stackedBonus": 0,
-    "triggeredAt": null
+    "active": true,
+    "preInteractionScore": 36,
+    "stackedBonus": 5,
+    "triggeredAt": "2026-07-11T09:26:56.3916792Z"
   }
 }
