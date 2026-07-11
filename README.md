@@ -16,7 +16,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 ### 😐 **BORED** 😐
 **Mood Score:** 36/100
 
-*Missing you a bit... • Appreciates the attention*
+*Missing you a bit...*
 
 ---
 
