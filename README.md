@@ -16,7 +16,7 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 ### 😢 **SAD** 😢
 **Mood Score:** 14/100
 
-*It's been 9 days...*
+*It's been 10 days...*
 
 ---
 
