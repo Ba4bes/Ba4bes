@@ -11,12 +11,12 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-sad.png" alt="sad poodle" width="400"></a>
+<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-content.png" alt="content poodle" width="400"></a>
 
-### 😢 **SAD** 😢
-**Mood Score:** 14/100
+### 🙂 **CONTENT** 🙂
+**Mood Score:** 55/100
 
-*It's been 12 days...*
+*Contributed today!*
 
 ---
 
@@ -41,9 +41,9 @@ Comment on the [🐩 Poodle Interaction issue](https://github.com/Ba4bes/Ba4bes/
 📊 **Contribution Stats**
 | Metric | Value |
 |--------|-------|
-| Last Contribution | 2026-07-07 |
-| Contributions (7 days) | 0 |
-| Contributions (30 days) | 13 |
+| Last Contribution | 2026-07-19 |
+| Contributions (7 days) | 1 |
+| Contributions (30 days) | 14 |
 | Repositories | 69 |
 
 <sub>*The poodle's mood updates based on GitHub activity and visitor interactions!*</sub>
