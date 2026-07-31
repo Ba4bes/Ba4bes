@@ -1,12 +1,12 @@
 {
   "mood": {
-    "score": 100,
-    "state": "ecstatic",
-    "lastCalculated": "2026-07-31T12:40:31.7637752Z"
+    "score": 63,
+    "state": "happy",
+    "lastCalculated": "2026-07-31T15:25:20.1203858Z"
   },
   "decay": {
     "interactionBonus": 5,
-    "lastDecayApplied": "2026-07-31T15:15:32.9873930Z"
+    "lastDecayApplied": "2026-07-31T15:15:32.987393Z"
   },
   "interactions": {
     "totalPets": 8,
@@ -127,9 +127,9 @@
     ]
   },
   "cooldown": {
-    "active": true,
-    "preInteractionScore": 53,
-    "stackedBonus": 10,
-    "triggeredAt": "2026-07-31T15:15:30.9958017Z"
+    "active": false,
+    "preInteractionScore": null,
+    "stackedBonus": 0,
+    "triggeredAt": null
   }
 }
