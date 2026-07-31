@@ -14,9 +14,9 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-content.png" alt="content poodle" width="400"></a>
 
 ### 🙂 **CONTENT** 🙂
-**Mood Score:** 57/100
+**Mood Score:** 53/100
 
-*Feeling appreciated after those pets & treats!*
+*Active in the last few days • Appreciates the attention*
 
 ---
 
