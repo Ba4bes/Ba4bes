@@ -11,22 +11,22 @@
 This is my mood poodle! Its mood changes based on my GitHub activity and your interactions.
 The more I contribute and the more you pet or feed it, the happier it gets!
 
-<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-content.png" alt="content poodle" width="400"></a>
+<a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-ecstatic.png" alt="ecstatic poodle" width="400"></a>
 
-### 🙂 **CONTENT** 🙂
-**Mood Score:** 53/100
+### 🎉 **ECSTATIC** 🎉
+**Mood Score:** 100/100
 
-*Active in the last few days • Appreciates the attention*
+*Just received love from [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard)! 🎉*
 
 ---
 
 📊 **Interaction Stats**
 | Type | Count |
 |------|-------|
-| Pets received | 7 |
+| Pets received | 8 |
 | Treats received | 4 |
 
-**Recent visitors:** [@Sejrskild](https://github.com/Sejrskild), [@Mohammadtej](https://github.com/Mohammadtej), [@Grow13](https://github.com/Grow13), [@MMT40](https://github.com/MMT40), [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard)
+**Recent visitors:** [@SQLDBAWithABeard](https://github.com/SQLDBAWithABeard), [@Sejrskild](https://github.com/Sejrskild), [@Mohammadtej](https://github.com/Mohammadtej), [@Grow13](https://github.com/Grow13), [@MMT40](https://github.com/MMT40)
 
 ---
 

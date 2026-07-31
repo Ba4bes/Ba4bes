@@ -1,15 +1,15 @@
 {
   "mood": {
-    "score": 53,
-    "state": "content",
+    "score": 100,
+    "state": "ecstatic",
     "lastCalculated": "2026-07-31T12:40:31.7637752Z"
   },
   "decay": {
-    "interactionBonus": 1,
-    "lastDecayApplied": "2026-07-31T12:40:31.7674317Z"
+    "interactionBonus": 3,
+    "lastDecayApplied": "2026-07-31T15:14:53.7955259Z"
   },
   "interactions": {
-    "totalPets": 7,
+    "totalPets": 8,
     "totalFeeds": 4,
     "log": [
       {
@@ -77,6 +77,12 @@
         "type": "pet",
         "timestamp": "2026-07-31T10:34:13.2253566Z",
         "issueNum": 2
+      },
+      {
+        "username": "SQLDBAWithABeard",
+        "type": "pet",
+        "timestamp": "2026-07-31T15:14:52.0116191Z",
+        "issueNum": 2
       }
     ]
   },
@@ -97,7 +103,7 @@
       "2026-03-19T05:56:28.6449228Z"
     ],
     "SQLDBAWithABeard": [
-      "2026-06-30T14:02:55.7376535Z"
+      "2026-07-31T15:14:52.0400924Z"
     ],
     "MMT40": [
       "2026-07-02T02:12:26.4844602Z",
@@ -114,9 +120,9 @@
     ]
   },
   "cooldown": {
-    "active": false,
-    "preInteractionScore": null,
-    "stackedBonus": 0,
-    "triggeredAt": null
+    "active": true,
+    "preInteractionScore": 53,
+    "stackedBonus": 5,
+    "triggeredAt": "2026-07-31T15:14:52.0334861Z"
   }
 }
