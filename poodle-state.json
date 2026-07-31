@@ -5,12 +5,12 @@
     "lastCalculated": "2026-07-31T12:40:31.7637752Z"
   },
   "decay": {
-    "interactionBonus": 3,
-    "lastDecayApplied": "2026-07-31T15:14:53.7955259Z"
+    "interactionBonus": 5,
+    "lastDecayApplied": "2026-07-31T15:15:32.9873930Z"
   },
   "interactions": {
     "totalPets": 8,
-    "totalFeeds": 4,
+    "totalFeeds": 5,
     "log": [
       {
         "username": "Ba4bes",
@@ -83,6 +83,12 @@
         "type": "pet",
         "timestamp": "2026-07-31T15:14:52.0116191Z",
         "issueNum": 2
+      },
+      {
+        "username": "SQLDBAWithABeard",
+        "type": "feed",
+        "timestamp": "2026-07-31T15:15:30.97959Z",
+        "issueNum": 2
       }
     ]
   },
@@ -103,7 +109,8 @@
       "2026-03-19T05:56:28.6449228Z"
     ],
     "SQLDBAWithABeard": [
-      "2026-07-31T15:14:52.0400924Z"
+      "2026-07-31T15:14:52.0400924Z",
+      "2026-07-31T15:15:30.9999382Z"
     ],
     "MMT40": [
       "2026-07-02T02:12:26.4844602Z",
@@ -122,7 +129,7 @@
   "cooldown": {
     "active": true,
     "preInteractionScore": 53,
-    "stackedBonus": 5,
-    "triggeredAt": "2026-07-31T15:14:52.0334861Z"
+    "stackedBonus": 10,
+    "triggeredAt": "2026-07-31T15:15:30.9958017Z"
   }
 }
