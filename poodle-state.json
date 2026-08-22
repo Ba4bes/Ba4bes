@@ -1,8 +1,8 @@
 {
   "mood": {
-    "score": 100,
-    "state": "ecstatic",
-    "lastCalculated": "2026-08-22T00:13:40.1528132Z"
+    "score": 41,
+    "state": "content",
+    "lastCalculated": "2026-08-22T04:44:20.5988211Z"
   },
   "decay": {
     "interactionBonus": 2,
@@ -136,9 +136,9 @@
     ]
   },
   "cooldown": {
-    "active": true,
-    "preInteractionScore": 36,
-    "stackedBonus": 5,
-    "triggeredAt": "2026-08-22T04:33:54.3525724Z"
+    "active": false,
+    "preInteractionScore": null,
+    "stackedBonus": 0,
+    "triggeredAt": null
   }
 }
