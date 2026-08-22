@@ -14,9 +14,9 @@ The more I contribute and the more you pet or feed it, the happier it gets!
 <a href="https://github.com/Ba4bes/Ba4bes/issues/2"><img src="Assets/poodle-bored.png" alt="bored poodle" width="400"></a>
 
 ### 😐 **BORED** 😐
-**Mood Score:** 37/100
+**Mood Score:** 36/100
 
-*Missing you a bit... • Appreciates the attention*
+*Missing you a bit...*
 
 ---
 
