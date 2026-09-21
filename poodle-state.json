@@ -1,16 +1,16 @@
 {
   "mood": {
-    "score": 59,
-    "state": "content",
+    "score": 100,
+    "state": "ecstatic",
     "lastCalculated": "2026-09-21T00:32:52.8482661Z"
   },
   "decay": {
-    "interactionBonus": 0,
-    "lastDecayApplied": "2026-09-21T00:32:52.8518046Z"
+    "interactionBonus": 2,
+    "lastDecayApplied": "2026-09-21T05:34:58.4596852Z"
   },
   "interactions": {
     "totalPets": 9,
-    "totalFeeds": 5,
+    "totalFeeds": 6,
     "log": [
       {
         "username": "Ba4bes",
@@ -95,6 +95,12 @@
         "type": "pet",
         "timestamp": "2026-08-22T04:33:54.3373559Z",
         "issueNum": 2
+      },
+      {
+        "username": "kad-mahies",
+        "type": "feed",
+        "timestamp": "2026-09-21T05:34:56.7100517Z",
+        "issueNum": 2
       }
     ]
   },
@@ -133,12 +139,15 @@
     ],
     "roylanpais": [
       "2026-08-22T04:33:54.360302Z"
+    ],
+    "kad-mahies": [
+      "2026-09-21T05:34:56.7343086Z"
     ]
   },
   "cooldown": {
-    "active": false,
-    "preInteractionScore": null,
-    "stackedBonus": 0,
-    "triggeredAt": null
+    "active": true,
+    "preInteractionScore": 59,
+    "stackedBonus": 5,
+    "triggeredAt": "2026-09-21T05:34:56.7261077Z"
   }
 }
