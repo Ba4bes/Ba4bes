@@ -1,16 +1,16 @@
 {
   "mood": {
-    "score": 63,
-    "state": "happy",
+    "score": 100,
+    "state": "ecstatic",
     "lastCalculated": "2026-09-28T06:27:31.6049062Z"
   },
   "decay": {
-    "interactionBonus": 0,
-    "lastDecayApplied": "2026-09-28T06:27:31.6084914Z"
+    "interactionBonus": 2,
+    "lastDecayApplied": "2026-09-28T08:25:34.4523789Z"
   },
   "interactions": {
     "totalPets": 9,
-    "totalFeeds": 6,
+    "totalFeeds": 7,
     "log": [
       {
         "username": "Ba4bes",
@@ -101,6 +101,12 @@
         "type": "feed",
         "timestamp": "2026-09-21T05:34:56.7100517Z",
         "issueNum": 2
+      },
+      {
+        "username": "iceiguana",
+        "type": "feed",
+        "timestamp": "2026-09-28T08:25:32.5141665Z",
+        "issueNum": 2
       }
     ]
   },
@@ -142,12 +148,15 @@
     ],
     "kad-mahies": [
       "2026-09-21T05:34:56.7343086Z"
+    ],
+    "iceiguana": [
+      "2026-09-28T08:25:32.5434107Z"
     ]
   },
   "cooldown": {
-    "active": false,
-    "preInteractionScore": null,
-    "stackedBonus": 0,
-    "triggeredAt": null
+    "active": true,
+    "preInteractionScore": 63,
+    "stackedBonus": 5,
+    "triggeredAt": "2026-09-28T08:25:32.5356508Z"
   }
 }
